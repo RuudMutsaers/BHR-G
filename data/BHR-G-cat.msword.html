@@ -8,7 +8,7 @@
    <body>
       <p>Conceptual model/Geologisch booronderzoek (BHR-G)/20190923</p>
       <p>Imvertor: 1.55.1</p>
-      <p>Model release: Conceptualmodel-GeologischbooronderzoekBHR-G-0.9-0-20190923-20190926-232621</p>
+      <p>Model release: Conceptualmodel-GeologischbooronderzoekBHR-G-0.9-0-20190923-20190926-235236</p>
       <hr>
       <section id="" level="3">
          <h1>Artikel 1  Entiteiten en attributen   </h1><a class="anchor" name="graph_EAID_660D0220_39EE_4290_AD92_C8E8CCEDB502"></a><a class="anchor" name="global_class_DomeinmodelBHRBHRG_Booronderzoek"></a><section id="global_class_DomeinmodelBHRBHRG_Booronderzoek" level="4">
@@ -9177,9 +9177,9 @@
                      <th>Definitie</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Een deel van de grond dat dat niet tot de  bijzondere bestanddelen wordt gerekend
-                           en herkend wordt als de rest van een door de mens gemaakt voorwerp of als een spoor
-                           van menselijke activiteit. 
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Een deel van de grond dat dat niet tot de bijzondere bestanddelen wordt gerekend en
+                           herkend wordt als de rest van een door de mens gemaakt voorwerp of als een spoor van
+                           menselijke activiteit. 
                         </p>
                         
                      </td>
@@ -9190,10 +9190,10 @@
                         
                         <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De procedure schrijft voor dat de beschrijver onderscheid probeert te maken tussen
                            antropogene bestanddelen die wel en antropogene bestanddelen die geen betekenis hebben
-                           vanuit een archeologisch perspectief.  Wanneer ongeroerde monsters archeologisch interessante
+                           vanuit een archeologisch perspectief. Wanneer ongeroerde monsters archeologisch interessante
                            bestanddelen bevatten kan dat gebruikt als criterium voor het bepalen van laaggrenzen.
-                           Omdat een precieze duiding van wat archeologsche betekenis  heeft niet binnen de expertise
-                           van geologische beshcrijvers valt, zijn de gegevens niet authentiek.
+                           Omdat een precieze duiding van wat archeologsche betekenis heeft niet binnen de expertise
+                           van geologische beschrijvers valt, zijn de gegevens niet authentiek.
                         </p>
                         
                      </td>
@@ -9227,7 +9227,7 @@
                      </tr>
                      <tr>
                         <th>Juridische status</th>
-                        <td>Overig</td>
+                        <td>Basisgegeven (niet-authentiek)</td>
                      </tr>
                      <tr>
                         <th>Kardinaliteit</th>
@@ -9273,7 +9273,7 @@
                      </tr>
                      <tr>
                         <th>Juridische status</th>
-                        <td>Authentiek</td>
+                        <td>Basisgegeven (niet-authentiek)</td>
                      </tr>
                      <tr>
                         <th>Kardinaliteit</th>
@@ -9313,8 +9313,33 @@
                      <th>Definitie</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Van een laag die uit brokken bestaat die in grondsoort verschillen, een deel dat uit
-                           brokken van dezelfde grondsoort bestaat.
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Van een laag die niet uit lagen bestaat die in grondsoort verschillen, maar uit anders,
+                           meer grillig, gevormde delen die in grondsoort verschillen, een deel dat dezelfde
+                           grondsoort bestaat.
+                        </p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Regels</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>structuur</em>van de entiteit <em>Laag</em>gelijk is aan <em>brokkenOpbouw</em>.
+                        </p>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut mag niet aanwezig zijn in alle andere gevallen.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Sommige lagen worden door syn- of post-sedimentaire processen dermate verstoord dat
+                           ze niet goed als laag of lagen beschreven kunnen worden. Voorbeelden zijn sterk gekryoturbeerde
+                           of doorgraven lagen waar twee of meer soorten grond als grillige vormen in een interval
+                           aanwezig zijn. Ook zeer grillige inspoelingslagen kunnen op deze wijze in twee of
+                           meer laagdelen beschreven worden.
                         </p>
                         
                      </td>
@@ -9375,15 +9400,21 @@
                      </tr>
                      <tr>
                         <th>&nbsp;&nbsp;Waardebereik</th>
-                        <td>0 tot 100</td>
+                        <td>Vanaf 0</td>
+                     </tr>
+                     <tr>
+                        <th>Regels</th>
+                        <td>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De som van de laagaandelen moet gelijk zijn aan 100.</p>
+                           
+                        </td>
                      </tr>
                      <tr>
                         <th>Toelichting</th>
                         <td>
                            
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Wanneer een laag bestaat uit brokken die in grondsoort verschillen, volstaat het de
-                              soort grond en het aandeel ervan vast te leggen.  Het aandeel wordt geschat.
-                           </p>
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het aandeel wordt geschat.</p>
                            
                         </td>
                      </tr>
@@ -9411,6 +9442,28 @@
                         
                         <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Van een laag die een min of meer regelmatige afwisseling van grondsoorten omvat, het
                            deel dat uit laagjes van dezelfde grondsoort bestaat.
+                        </p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Regels</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>structuur</em>van de entiteit <em>Laag</em>gelijk is aan <em>heterogeenGelaagd</em>.
+                        </p>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut mag niet aanwezig zijn in alle andere gevallen.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Wanneer een laag is beschreven als een afwisseling van laagjes die in grondsoort van
+                           elkaar verschillen, geeft dat aan dat de laag is gevormd in een  milieu van afzetting
+                           waarin de omstandigheden met regelmaat veranderen, zoals in een getijdegebied.
                         </p>
                         
                      </td>
@@ -9464,6 +9517,22 @@
                      <tr>
                         <th>&nbsp;&nbsp;Type</th>
                         <td>Getal</td>
+                     </tr>
+                     <tr>
+                        <th>&nbsp;&nbsp;Eenheid</th>
+                        <td>% (procent)</td>
+                     </tr>
+                     <tr>
+                        <th>&nbsp;&nbsp;Waardebereik</th>
+                        <td>Vanaf 0</td>
+                     </tr>
+                     <tr>
+                        <th>Regels</th>
+                        <td>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De som van de laagaandelen moet gelijk zijn aan 100.</p>
+                           
+                        </td>
                      </tr>
                      <tr>
                         <th>Toelichting</th>
@@ -9574,7 +9643,9 @@
                            <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven kan gebruikers direct inzicht geven in de plaats van de eenheid in een
                               geologisch model. Het gegeven heeft eerder een interpretatief dan een beschrijvend
                               karakter, maar het niveau van interpretatie is zo globaal dat iedere beschrijver in
-                              het vakgebied geacht wordt over de noodzakelijke kennis te beschikken. 
+                              het vakgebied geacht wordt over de noodzakelijke kennis te beschikken. Ook zijn deze
+                              gegevens het beste direct bij de beschrijving van boormonsters vast te leggen in plaats
+                              van achteraf op basis van alleen de boormonsterbeschrijving.
                            </p>
                            
                         </td>
