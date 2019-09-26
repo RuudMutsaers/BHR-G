@@ -1,7 +1,7 @@
 <section id="cat" class="normative" level="1">
    <h2>Gegevensdefinitie</h2>
    <p><b>Deze tekst is normatief.</b>
-      <!--Conceptualmodel-GeologischbooronderzoekBHR-G-0.9-0-20190923-20190926-162912 imvertor 1.55.1--></p>
+      <!--Conceptualmodel-GeologischbooronderzoekBHR-G-0.9-0-20190923-20190926-212842 imvertor 1.55.1--></p>
    <section id="" level="3">
       <h3>Het domeinmodel   </h3>
       <div class="imageinfo overview"><img src="data/Images/EAID_A794A5F1_C52E_4a52_952F_D4257486C44D.png" usemap="#imagemap-EAID_A794A5F1_C52E_4a52_952F_D4257486C44D"><map name="imagemap-EAID_A794A5F1_C52E_4a52_952F_D4257486C44D">
@@ -3532,8 +3532,9 @@
                            een norm, protocol of richtlijn. Dat kan overigens een richtlijn zijn die de uitvoerder
                            voor zichzelf gebruikt. Het gegeven is opgenomen omdat het inzicht biedt in de kwaliteit
                            van het werk. Het gebruik van procedures varieert van vakgebied tot vakgebied.
-                           Voor handboren en mechanisch boren bestaan aparte procedures.
                         </p>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Voor handboren en mechanisch boren bestaan aparte procedures.</p>
                         
                      </td>
                   </tr>
@@ -3589,7 +3590,7 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Waardebereik</th>
-                     <td>0 tot niet-gespecificeerd</td>
+                     <td>Vanaf 0</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -3698,16 +3699,10 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is aanwezig wanneer de waarde van het attribuut <em>boortechniek</em> gelijk is aan <em>handDraaien</em>, <em>mechanischDraaienOnverbuisd</em>, <em>mechanischGrijpen</em>, <em>mechanischSpuitenOnverbuisd</em>of <em>mechanischSpuitenDraaien</em>. In andere gevallen ontbreekt het gegeven.
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>boortechniek</em>van de entiteit <em>Geboord</em>interval gelijk is aan <em>handDraaien</em>, <em>mechanischDraaienOnverbuisd</em>, <em>mechanischGrijpen</em>, <em>mechanischSpuitenOnverbuisd</em>of <em>mechanischSpuitenDraaien</em>. 
                         </p>
                         
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Regels IMBRO/A</th>
-                     <td>
-                        
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Voor IMBRO/A-gegevens mag het gegeven ontbreken.</p>
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut mag niet aanwezig zijn in alle andere gevallen.</p>
                         
                      </td>
                   </tr>
@@ -3720,8 +3715,6 @@
                            en tijdelijk verbuizing aan te brengen om het geboorde gat in stand te houden zodat
                            men verder kan boren. De verbuizing kan van invloed zijn op de bemonstering en het
                            tijdens het boren doen van metingen.
-                           Voor gegevens die zijn aangeleverd in het kader van archiefoverdracht is dit gegeven
-                           zelden vastgelegd.
                         </p>
                         
                      </td>
@@ -3778,14 +3771,16 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Waardebereik</th>
-                     <td>0 tot niet-gespecificeerd</td>
+                     <td>Vanaf 0</td>
                   </tr>
                   <tr>
                      <th>Regels</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is aanwezig wanneer de waarde van het attribuut <em>tijdelijke verbuizing aangebracht</em> van de entiteit <em>Boring</em> gelijk is aan <em>ja</em>. In andere gevallen ontbreekt het gegeven.
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>tijdelijke verbuizing aangebracht</em>gelijk is aan <em>ja</em>. 
                         </p>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut mag niet aanwezig zijn in alle andere gevallen.</p>
                         
                      </td>
                   </tr>
@@ -3832,10 +3827,6 @@
                      <td>IndicatieJaNee</td>
                   </tr>
                   <tr>
-                     <th>&nbsp;&nbsp;Naam IMBRO/A</th>
-                     <td>IndicatieJaNeeOnbekend</td>
-                  </tr>
-                  <tr>
                      <th>&nbsp;&nbsp;Type</th>
                      <td>Waardelijst niet uitbreidbaar</td>
                   </tr>
@@ -3843,17 +3834,10 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is aanwezig wanneer de waarde van het attribuut <em>boortechniek</em> gelijk is aan <em>mechanischDraaienOnverbuisd</em>, <em>mechanischGrijpen, mechanischSpuitenOnverbuisd</em>of <em>mechanischSpuitenDraaien</em>. In andere gevallen ontbreekt het gegeven.
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>boortechniek</em>van de entiteit <em>Geboord interval</em>gelijk is aan <em>mechanischDraaienOnverbuisd</em>, <em>mechanischGrijpen</em>, <em>mechanischSpuitenOnverbuisd</em>of <em>mechanischSpuitenDraaien</em>. 
                         </p>
                         
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Regels IMBRO/A</th>
-                     <td>
-                        
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Wanneer de waarde van het attribuut <em>boortechniek</em> gelijk is aan <em>mechanischDraaienOnverbuisdDeelsDrukkenHameren</em> is het gegeven ook aanwezig.
-                        </p>
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut mag niet aanwezig zijn in alle andere gevallen.</p>
                         
                      </td>
                   </tr>
@@ -3866,8 +3850,9 @@
                            spoeling te gebruiken om in het gat voldoende tegendruk op te bouwen. In dat geval
                            voegt men een bepaalde toeslag toe aan het werkwater om een vloeistof met voldoende
                            massa samen te stellen.
-                           In de toekomst zal spoeling mogelijk ook gebruikt gaan worden bij andere boortechnieken.
                         </p>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">In de toekomst zal spoeling mogelijk ook gebruikt gaan worden bij andere boortechnieken.</p>
                         
                      </td>
                   </tr>
@@ -3923,8 +3908,10 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is aanwezig wanneer de waarde van het attribuut <em>spoeling gebruikt</em> van de entiteit <em>Boring</em> gelijk is aan <em>ja</em>. In andere gevallen ontbreekt het gegeven.
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>spoeling gebruikt</em>gelijk is aan <em>ja</em>. 
                         </p>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut mag niet aanwezig zijn in alle andere gevallen.</p>
                         
                      </td>
                   </tr>
@@ -3988,7 +3975,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven ontbreekt wanneer de waarde van het attribuut <em>lokaal verticaal referentiepunt</em> van de entiteit <em>Aangeleverde verticale positie</em> gelijk is aan <em>waterbodem</em>. In andere gevallen mag het gegeven ontbreken.
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>lokaal verticaal referentiepunt</em>van de entiteit <em>Aangeleverde verticale positie</em>gelijk is aan <em>waterbodem</em>. 
                         </p>
                         
                      </td>
@@ -3999,9 +3986,10 @@
                         
                         <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het is goede praktijk de grondwaterstand te bepalen, maar aan een eventueel ontbreken
                            van het gegeven kan geen bijzondere betekenis worden gegeven.
-                           Het gegeven wordt pas vastgelegd wanneer de uitvoerder van oordeel is dat de grondwaterstand
-                           zich weer hersteld heeft; de diepte moet beschouwd worden als indicatief.<br clear="none"></br>
-                           
+                        </p>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven wordt pas vastgelegd wanneer de uitvoerder van oordeel is dat de grondwaterstand
+                           zich weer hersteld heeft; de diepte moet beschouwd worden als indicatief. 
                         </p>
                         
                      </td>
@@ -4028,7 +4016,7 @@
                      <th>Definitie</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De procedure die aangeeft  onder welke afspraken het bemonsteren is uitgevoerd.</p>
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De procedure die aangeeft onder welke afspraken het bemonsteren is uitgevoerd.</p>
                         
                      </td>
                   </tr>
@@ -4061,8 +4049,9 @@
                            een norm, protocol of richtlijn. Dat kan overigens een richtlijn zijn die de uitvoerder
                            voor zichzelf gebruikt. Het gegeven is opgenomen omdat het inzicht biedt in de kwaliteit
                            van het werk. 
-                           Het gebruik van procedures varieert van vakgebied tot vakgebied.
                         </p>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gebruik van procedures varieert van vakgebied tot vakgebied.</p>
                         
                      </td>
                   </tr>
@@ -4118,34 +4107,13 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Waardebereik</th>
-                     <td>0 tot niet-gespecificeerd</td>
+                     <td>Vanaf 0</td>
                   </tr>
                   <tr>
                      <th>Regels</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De einddiepte is niet groter dan de <em>einddiepte boren</em>.
-                        </p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Regels IMBRO/A</th>
-                     <td>
-                        
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Voor IMBRO/A-gegevens mag de waarde ontbreken.</p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Toelichting</th>
-                     <td>
-                        
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven heeft onder meer als doel de samenhang van de informatie te borgen.
-                           Onderzoek onder IMBRO/A vertoont te weinig samenhang om dit gegeven betekenis te laten
-                           hebben. 
-                           Voor gegevens die zijn aangeleverd in het kader van archiefoverdracht is dit gegeven
-                           zelden vastgelegd.
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van het attribuut mag niet groter zijn dan de waarde van het attribuut <em>einddiepte boren</em>.
                         </p>
                         
                      </td>
@@ -4199,21 +4167,11 @@
                      <td>Waardelijst niet uitbreidbaar</td>
                   </tr>
                   <tr>
-                     <th>Regels IMBRO/A</th>
-                     <td>
-                        
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Voor IMBRO/A-gegevens mag de waarde ontbreken.</p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
                      <th>Toelichting</th>
                      <td>
                         
                         <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven geeft aan of de eigenschappen van de ondergrond onbedoeld door de mens
-                           veranderd zijn. 
-                           Voor gegevens die zijn aangeleverd in het kader van archiefoverdracht is dit gegeven
-                           zelden vastgelegd.
+                           veranderd zijn.
                         </p>
                         
                      </td>
@@ -4263,10 +4221,6 @@
                      <td>IndicatieJaNee</td>
                   </tr>
                   <tr>
-                     <th>&nbsp;&nbsp;Naam IMBRO/A</th>
-                     <td>IndicatieJaNeeOnbekend</td>
-                  </tr>
-                  <tr>
                      <th>&nbsp;&nbsp;Type</th>
                      <td>Waardelijst niet uitbreidbaar</td>
                   </tr>
@@ -4290,6 +4244,9 @@
          </section>
       </section><a class="anchor" name="graph_EAID_6EB72656_FB81_4560_ACB8_5C3707345FCD"></a><a class="anchor" name="global_class_DomeinmodelBHRBHRG_WeggegravenLaag"></a><section id="global_class_DomeinmodelBHRBHRG_WeggegravenLaag" level="4">
          <h4>   Weggegraven laag</h4>
+         <div class="imageinfo "><img src="data/Images/EAID_268D6C9E_A7EB_4fa0_B5CD_D773F485DBBC.png" usemap="#imagemap-EAID_268D6C9E_A7EB_4fa0_B5CD_D773F485DBBC"><map name="imagemap-EAID_268D6C9E_A7EB_4fa0_B5CD_D773F485DBBC">
+               <area shape="rect" coords="10,85,264,10" alt="" href="#graph_EAID_6EB72656_FB81_4560_ACB8_5C3707345FCD"></map><p><b>Weggegraven laag - detail</b></p>
+         </div>
          <table width="100%">
             <colgroup width="30%"></colgroup>
             <colgroup width="70%"></colgroup>
@@ -4378,9 +4335,10 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De bovengrens van de bovenste weggegraven laag is gelijk aan <em>0</em>.
-                           De bovengrens van iedere andere weggegraven laag valt samen met de ondergrens van
-                           de weggegraven laag erboven.
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De <em>bovengrens</em>van de bovenste weggegraven laag moet gelijk zijn aan <em>0</em>.
+                        </p>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De <em>bovengrens</em>van iedere andere weggegraven laag moet gelijk zijn aan de <em>ondergrens</em>van de weggegraven laag erboven.
                         </p>
                         
                      </td>
@@ -4443,9 +4401,10 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De ondergrens is groter dan de bovengrens van de weggegraven laag.
-                           De ondergrens van de onderste verwijderde laag is gelijk aan de waarde van het attribuut
-                           einddiepte graven van de entiteit Boring.
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De <em>ondergrens</em>moet groter zijn dan <em>bovengrens</em>van de weggegraven laag.
+                        </p>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De <em>ondergrens</em>van de onderste weggegraven laag moet gelijk zijn aan de <em>einddiepte graven</em>van de entiteit <em>Boring</em>.
                         </p>
                         
                      </td>
@@ -17351,7 +17310,9 @@
                   <td>✔</td>
                   <td>
                      
-                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">SIKB protocol 2101 Mechanisch boren versie 3.3.</p>
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">SIKB protocol 2101 Mechanisch boren. Versie 3.3 en opvolgende versies die geen relevante
+                        wijzigingen voor (de gegevens van) het booronderzoek bevatten.
+                     </p>
                      
                   </td>
                </tr>
@@ -26551,66 +26512,6 @@
                      
                   </td>
                </tr>
-               <tr>
-                  <td>kristallijnNietGespecificeerd</td>
-                  <td>✔</td>
-                  <td>✔</td>
-                  <td>
-                     
-                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Grind van kristallijn gesteente waarvan de soort noch de kleur nader is omschreven.</p>
-                     
-                  </td>
-               </tr>
-               <tr>
-                  <td>kwartsNietGespecificeerd</td>
-                  <td>✔</td>
-                  <td>✔</td>
-                  <td>
-                     
-                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Grind bestaand uit kwarts, waarvan de soort noch de kleur nader is omschreven.</p>
-                     
-                  </td>
-               </tr>
-               <tr>
-                  <td>veldspaatNietGespecificeerd</td>
-                  <td>✔</td>
-                  <td>✔</td>
-                  <td>
-                     
-                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Grind bestaand uit veldspaat, waarvan de kleur niet nader is omschreven.</p>
-                     
-                  </td>
-               </tr>
-               <tr>
-                  <td>verkiezeldNietGespecificeerd</td>
-                  <td>✔</td>
-                  <td>✔</td>
-                  <td>
-                     
-                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Grind bestaand uit  verkiezeld materiaal, dat niet nader is omschreven. </p>
-                     
-                  </td>
-               </tr>
-               <tr>
-                  <td>vuursteenNietGespecificeerd</td>
-                  <td>✔</td>
-                  <td>✔</td>
-                  <td>
-                     
-                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Grind bestaand uit vuursteen, waarvan het voorkomen niet nader is omschreven. </p>
-                     
-                  </td>
-               </tr>
-               <tr>
-                  <td>zandsteenNietGespecificeerd</td>
-                  <td>✔</td>
-                  <td>✔</td>
-                  <td>
-                     
-                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Grind van zandsteen die niet nader is omschreven.</p>
-                     
-                  </td>
-               </tr>
             </tbody>
          </table>
          
@@ -28579,36 +28480,6 @@
                   <td>
                      
                      <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Ruwe boormossel (Zirfaea crispata), mariene tweekleppige.</p>
-                     
-                  </td>
-               </tr>
-               <tr>
-                  <td>marieneSchelpen</td>
-                  <td>✔</td>
-                  <td>✔</td>
-                  <td>
-                     
-                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Mariene schelpen die niet nader zijn gedetermineerd.</p>
-                     
-                  </td>
-               </tr>
-               <tr>
-                  <td>zoetwaterEnLandschelpen</td>
-                  <td>✔</td>
-                  <td>✔</td>
-                  <td>
-                     
-                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Niet-mariene schelpen die niet nader zijn gedetermineerd.</p>
-                     
-                  </td>
-               </tr>
-               <tr>
-                  <td>gastropoda</td>
-                  <td>✔</td>
-                  <td>✔</td>
-                  <td>
-                     
-                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Gastropoden die niet nader zijn gedetermineerd.</p>
                      
                   </td>
                </tr>
