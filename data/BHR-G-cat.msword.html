@@ -8,7 +8,7 @@
    <body>
       <p>Conceptual model/Geologisch booronderzoek (BHR-G)/20190923</p>
       <p>Imvertor: 1.55.1</p>
-      <p>Model release: Conceptualmodel-GeologischbooronderzoekBHR-G-0.9-0-20190923-20190926-222542</p>
+      <p>Model release: Conceptualmodel-GeologischbooronderzoekBHR-G-0.9-0-20190923-20190926-232124</p>
       <hr>
       <section id="" level="3">
          <h1>Artikel 1  Entiteiten en attributen   </h1><a class="anchor" name="graph_EAID_660D0220_39EE_4290_AD92_C8E8CCEDB502"></a><a class="anchor" name="global_class_DomeinmodelBHRBHRG_Booronderzoek"></a><section id="global_class_DomeinmodelBHRBHRG_Booronderzoek" level="4">
@@ -3882,7 +3882,7 @@
                      </tr>
                      <tr>
                         <th>&nbsp;&nbsp;Waardebereik</th>
-                        <td>0 tot 50</td>
+                        <td>Vanaf 0</td>
                      </tr>
                      <tr>
                         <th>Regels</th>
@@ -4706,7 +4706,7 @@
                   <tr>
                      <th>Relaties met andere entiteiten</th>
                      <td>Bemonsterd interval 
-                        bemonsterd met 0-1 
+                        is bemonsterd met 0-1 
                         <a class="link" href="#global_class_DomeinmodelBHRBHRG_Bemonsteringsapparaat">Bemonsteringsapparaat</a>
                         <br>
                         <a class="link" href="#global_class_DomeinmodelBHRBHRG_Boring">Boring</a>
@@ -5126,7 +5126,7 @@
                      <td>
                         <a class="link" href="#global_class_DomeinmodelBHRBHRG_BemonsterdInterval">Bemonsterd interval</a>
                         
-                        bemonsterd met 0-1 Bemonsteringsapparaat<br></td>
+                        is bemonsterd met 0-1 Bemonsteringsapparaat<br></td>
                   </tr>
                </tbody>
             </table><a class="anchor" name="detail_attribute_DomeinmodelBHRBHRG_Bemonsteringsapparaat_apparaattype"></a><section id="detail_attribute_DomeinmodelBHRBHRG_Bemonsteringsapparaat_apparaattype" level="5">
@@ -7122,7 +7122,7 @@
                      </tr>
                      <tr>
                         <th>Mogelijk geen waarde</th>
-                        <td>Ja</td>
+                        <td>Nee</td>
                      </tr>
                   </tbody>
                </table>
@@ -7168,7 +7168,7 @@
                      </tr>
                      <tr>
                         <th>Mogelijk geen waarde</th>
-                        <td>Ja</td>
+                        <td>Nee</td>
                      </tr>
                   </tbody>
                </table>
@@ -7246,11 +7246,19 @@
                      </tr>
                      <tr>
                         <th>&nbsp;&nbsp;Waardebereik</th>
-                        <td>1 januari 1980 tot heden</td>
+                        <td>Vanaf 1 januari 1877</td>
                      </tr>
                      <tr>
-                        <th>Regels IMBRO/A</th>
-                        <td>OnvolledigeDatum</td>
+                        <th>Toelichting</th>
+                        <td>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is alleen aanwezig wanneer alle deelonderzoeken zijn gerapporteerd en
+                              het onderzoek is afgesloten. Hoewel historische gegevens nog buiten het bereik van
+                              deze versie van de catalogus vallen, is wel al met zekerheid vast te stellen dat de
+                              eerste datum waarop een onderzoek kan zijn afgerond in 1877 ligt.
+                           </p>
+                           
+                        </td>
                      </tr>
                      <tr>
                         <th>Mogelijk geen waarde</th>
@@ -7307,11 +7315,7 @@
                               in een norm, protocol of richtlijn. Dat kan overigens een richtlijn zijn die de uitvoerder
                               voor zichzelf gebruikt. Het gegeven is opgenomen omdat het inzicht biedt in de kwaliteit
                               van het werk. Het gebruik van procedures varieert van vakgebied tot vakgebied en voor
-                              grond gelden andere afspraken dan voor gesteente.
-                              Voor booronderzoek dat onder kwaliteitsregime IMBRO valt, is de boormonsterbeschrijving
-                              altijd onder NEN-EN-ISO 14688-1 tot stand gekomen. Een boormonsterbeschrijving die
-                              onder NEN 5104 tot stand is gekomen, valt per definitie onder booronderzoek met kwaliteitsregime
-                              IMBRO/A.
+                              grond gelden andere afspraken dan voor gesteente. 
                            </p>
                            
                         </td>
@@ -7335,14 +7339,6 @@
                         <td>Attribuut van Boormonsterbeschrijving</td>
                      </tr>
                      <tr>
-                        <th>Definitie</th>
-                        <td>
-                           
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De procedure die aangeeft onder welke afspraken de monsters zijn beschreven.</p>
-                           
-                        </td>
-                     </tr>
-                     <tr>
                         <th>Juridische status</th>
                         <td>Authentiek</td>
                      </tr>
@@ -7363,19 +7359,22 @@
                         <td>Waardelijst uitbreidbaar</td>
                      </tr>
                      <tr>
+                        <th>Regels</th>
+                        <td>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut beschrijfkwaliteit
+                              van de entiteit Boorprofiel gelijk is aan geologischStandaardGeroerd of geologischStandaardOngeroerd.
+                           </p>
+                           
+                        </td>
+                     </tr>
+                     <tr>
                         <th>Toelichting</th>
                         <td>
                            
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De procedure beschrijft volgens welk stelsel van afspraken de monsters beschreven
-                              zijn en welke aspecten worden beschreven. Procedures zijn in het algemeen vastgelegd
-                              in een norm, protocol of richtlijn. Dat kan overigens een richtlijn zijn die de uitvoerder
-                              voor zichzelf gebruikt. Het gegeven is opgenomen omdat het inzicht biedt in de kwaliteit
-                              van het werk. Het gebruik van procedures varieert van vakgebied tot vakgebied en voor
-                              grond gelden andere afspraken dan voor gesteente.
-                              Voor booronderzoek dat onder kwaliteitsregime IMBRO valt, is de boormonsterbeschrijving
-                              altijd onder NEN-EN-ISO 14688-1 tot stand gekomen. Een boormonsterbeschrijving die
-                              onder NEN 5104 tot stand is gekomen, valt per definitie onder booronderzoek met kwaliteitsregime
-                              IMBRO/A.
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven wordt alleen vastgelegd wanneer er in aanvulling op de procedure extra
+                              hulpmiddelen zijn gebruikt. De hulpmiddelen wordt gebruikt om eigenschappen van de
+                              zandfractie op een meer betrouwbare wijze te bepalen.
                            </p>
                            
                         </td>
@@ -7480,20 +7479,14 @@
                      <th>Toelichting</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het resultaat van de boormonsterbeschrijving omvat een, twee of drie boorprofielen.
-                           
-                           Wanneer er meer dan een profiel is, verschillen de profielen onderling in kwaliteit
-                           en dat wil zeggen in de mate van detail waarin de ondergrond is beschreven. Er is
-                           een uitzondering en dat is wanneer bij sonisch boren een deel van de monsters in het
-                           veld wordt beschreven en een deel in het laboratorium. In dat geval ontstaan er twee
-                           boorprofielen met dezelfde beschrijfkwaliteit.
-                           Boorprofielen kunnen elkaar gedeeltelijk overlappen en dat betekent dat er in het
-                           betreffende diepte-interval op twee verschillende manieren bemonsterd is en de respectieve
-                           monsters een andere beschrijfkwaliteit vergen. Overlap treedt alleen op in geboorde
-                           trajecten. Wanneer een bepaald traject zowel geboord als weggegraven is, worden de
-                           monsters die uit het weggraven traject zijn voortgekomen genegeerd.
-                           Een boormonsterbeschrijving die onder NEN 5104 tot stand is gekomen heeft altijd maar
-                           een profiel.
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het resultaat van de boormonsterbeschrijving omvat een of twee boorprofielen. Wanneer
+                           er twee profielen zijn, verschillen die onderling in kwaliteit en dat wil zeggen in
+                           de mate van detail waarin de ondergrond is beschreven. Boorprofielen kunnen elkaar
+                           gedeeltelijk overlappen en dat betekent dat er in het betreffende diepte-interval
+                           op twee verschillende manieren bemonsterd is en de respectieve monsters een andere
+                           beschrijfkwaliteit vergen. Overlap treedt alleen op in geboorde trajecten. Wanneer
+                           een bepaald traject zowel geboord als weggegraven is, worden de monsters die uit het
+                           weggraven traject zijn voortgekomen genegeerd. 
                         </p>
                         
                      </td>
@@ -7557,41 +7550,14 @@
                         <td>Waardelijst uitbreidbaar</td>
                      </tr>
                      <tr>
-                        <th>Regels</th>
-                        <td>
-                           
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Wanneer de waarde van het attribuut <em>kader inwinning</em>van de entiteit <em>Booronderzoek</em> gelijk is aan <em>verkennendOnderzoek</em> is de waarde gelijk aan <em>klasse3</em>.
-                           </p>
-                           
-                        </td>
-                     </tr>
-                     <tr>
-                        <th>Regels IMBRO/A</th>
-                        <td>
-                           
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch</em>, is de waarde van het gegeven gelijk aan <em>nietGespecificeerd</em>. In andere gevallen is de waarde <em>nietGespecificeerd</em> niet toegestaan.
-                           </p>
-                           
-                        </td>
-                     </tr>
-                     <tr>
                         <th>Toelichting</th>
                         <td>
                            
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven geeft een nadere precisering van de klasse binnen de beschrijfprocedure
-                              waaraan het profiel voldoet en het geeft aan of de monsters waarop de beschrijving
-                              is gebaseerd al dan niet van een lage kwaliteit zijn. Voor wat betreft dat laatste
-                              is het criterium of de bemonstering tot doel heeft gehad om monsters uit de ondergrond
-                              naar boven te halen waarvan de gelaagdheid intact is gebleven op het moment van beschrijven,
-                              ofwel ongeroerde monstername.
-                              Er is een uitzondering wanneer alleen met de hand is geboord. In dat geval kan er
-                              een geïntegreerd boorprofiel ontstaan van geroerde en ongeroerde monsters.
-                              Binnen de nieuwe Nederlandse beschrijfprocedure NEN-EN-ISO 14688-1 is voor geotechnisch
-                              booronderzoek een tweedeling gemaakt naar klasse 2 voor standaard geotechnisch booronderzoek
-                              en klasse 3 voor verkennend geotechnisch booronderzoek. Gesteente wordt altijd beschreven
-                              in klasse 2.
-                              Onder NEN 5104 heeft het begrip beschrijfkwaliteit geen onderscheidende waarde. Gewoonlijk
-                              is niet meer te achterhalen waarop de gegevens precies zijn gebaseerd.
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven geeft de mate van detail van de beschrijving aan en of de monsters waarop
+                              de beschrijving is gebaseerd al dan niet van een lage kwaliteit zijn. Voor wat betreft
+                              dat laatste is het criterium of de bemonstering tot doel heeft gehad om monsters uit
+                              de ondergrond naar boven te halen waarvan de gelaagdheid intact is gebleven op het
+                              moment van beschrijven, oftewel ongeroerde monstername. 
                            </p>
                            
                         </td>
@@ -7649,18 +7615,15 @@
                         <th>Toelichting</th>
                         <td>
                            
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven vormt voor booronderzoek dat onder kwaliteitsregime IMBRO valt,  een brug
-                              tussen bemonstering en beschrijving.
-                              Wanneer de boring, eventueel inclusief het weggegraven traject, van maaiveld tot einddiepte
-                              is bemonsterd en de monsters voldoende in kwaliteit overeenstemmen, kan de ondergrond
-                              over het gehele traject worden beschreven als een aaneensluitende opeenvolging van
-                              lagen.
-                              Het is goede praktijk dat bij geroerde monsters, beschrijfkwaliteit klasse2geroerd,
-                              het gehele traject is bemonsterd en beschreven. In de praktijk kan het voorkomen dat
-                              bepaalde intervallen niet beschreven worden. Bij continue bemonstering is het boorprofiel
-                              in dat geval een aaneensluitende opvolging van lagen en niet-beschreven intervallen.
-                              Voor booronderzoek dat onder IMBRO/A valt, en in het bijzonder voor boormonsterbeschrijvingen
-                              onder NEN 5104, is de samenhang niet zo goed geborgd.
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven vormt voor booronderzoek dat onder kwaliteitsregime IMBRO valt, een brug
+                              tussen bemonstering en beschrijving. Wanneer de boring, eventueel inclusief het weggegraven
+                              traject, van maaiveld tot einddiepte is bemonsterd en de monsters voldoende in kwaliteit
+                              overeenstemmen, kan de ondergrond over het gehele traject worden beschreven als een
+                              aaneensluitende opeenvolging van lagen. Het is goede praktijk dat bij geroerde monsters
+                              het gehele traject is bemonsterd en beschreven. Door  omstandigheden kan het voorkomen
+                              dat bepaalde intervallen niet beschreven worden. Bij continue bemonstering is het
+                              boorprofiel in dat geval een aaneensluitende opvolging van lagen en niet-beschreven
+                              intervallen. 
                            </p>
                            
                         </td>
@@ -7712,28 +7675,19 @@
                         <td>Waardelijst uitbreidbaar</td>
                      </tr>
                      <tr>
-                        <th>Regels</th>
-                        <td>
-                           
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> gelijk is aan <em>klasse2ongedifferentieerd</em>, is de waarde gelijk aan <em>veld</em>.
-                           </p>
-                           
-                        </td>
-                     </tr>
-                     <tr>
                         <th>Toelichting</th>
                         <td>
                            
                            <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het is bij mechanische boortechnieken gebruikelijk in het veld alleen de geroerde
-                              monsters te beschrijven en de ongeroerde monsters  in het laboratorium. Beschrijven
+                              monsters te beschrijven en de ongeroerde monsters in het laboratorium. Beschrijven
                               in het veld heeft als nadeel dat de omstandigheden niet ideaal zijn, bijvoorbeeld
                               vanwege het weer, maar als voordeel dat de monsters veldvochtig zijn en niet verstoord
                               door de handelingen die nodig zijn om de monsters in het laboratorium te krijgen.
                               De nadelen van een beschrijving in het veld wegen zwaarder dan de voordelen wanneer
                               een hoge kwaliteit monsters vereist is. Om die monsters zonder kwaliteitsverlies vanuit
-                              het veld aan het laboratorium over te brengen worden de procedures gevolgd die voor
+                              het veld aan het laboratorium over te dragen worden de procedures gevolgd die voor
                               het vakgebied geotechniek zijn opgesteld. De procedures laten de uitvoerder vrij te
-                              besluiten ook de monsters met een lage kwaliteit in het lab te beschrijven.
+                              besluiten alle monsters in het lab te beschrijven.
                            </p>
                            
                         </td>
@@ -7785,11 +7739,10 @@
                         <td>Waardelijst uitbreidbaar</td>
                      </tr>
                      <tr>
-                        <th>Regels IMBRO/A</th>
+                        <th>Regels</th>
                         <td>
                            
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Voor IMBRO/A-gegevens is de waarde van het gegeven gelijk aan <em>grond</em>.
-                           </p>
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van het attribuut moet gelijk zijn aan grond.</p>
                            
                         </td>
                      </tr>
@@ -7843,8 +7796,10 @@
                         <th>Regels</th>
                         <td>
                            
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is aanwezig wanneer de waarde van het attribuut <em>beschrijflocatie</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>lab</em> en de waarde van het attribuut <em>beschreven materiaal</em> gelijk is aan <em>grond</em> of <em>grondGesteente</em>. In andere gevallen ontbreekt het gegeven.
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijflocatie</em>gelijk is aan <em>lab</em>.
                            </p>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut mag niet aanwezig zijn in alle andere gevallen.</p>
                            
                         </td>
                      </tr>
@@ -7852,7 +7807,8 @@
                         <th>Toelichting</th>
                         <td>
                            
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is bedoeld voor grondmonsters die in het laboratorium zijn beschreven,<strong> </strong>omdat die vocht kunnen hebben verloren. Monsters beschreven in het veld of veldlab
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is bedoeld voor grondmonsters die in het laboratorium zijn beschreven,
+                              omdat die vocht kunnen hebben verloren. Monsters beschreven in het veld of veldlab
                               zijn altijd veldvochtig.
                            </p>
                            
@@ -7910,15 +7866,13 @@
                      </tr>
                      <tr>
                         <th>&nbsp;&nbsp;Waardebereik</th>
-                        <td>0 tot 50</td>
+                        <td>Vanaf 0</td>
                      </tr>
                      <tr>
                         <th>Regels</th>
                         <td>
                            
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven ontbreekt wanneer de waarde van het attribuut <em>beschreven materiaal</em> gelijk is aan <em>gesteente</em>. In andere gevallen mag het gegeven ontbreken.
-                              De waarde van het gegeven mag niet groter zijn dan de waarde van het attribuut einddiepte
-                              boren van de entiteit Boring.
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van het attribuut mag niet groter zijn dan de waarde van het attribuut <em>einddiepte boren</em>van de entiteit <em>Boring</em>.
                            </p>
                            
                         </td>
@@ -7929,15 +7883,13 @@
                            
                            <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De diepte van het niveau wordt geschat op basis van aspecten als kleur, de aanwezigheid
                               van ijzervlekken of concreties. De terreintoestand en het al dan niet aanwezig zijn
-                              van bepaalde planten kunnen bijdragen aan de bepaling.
-                              Wanneer het boorprofiel aan de eisen van klasse 2 van de beschrijfprocedure voldoet,
-                              wordt het gegeven vastgelegd. Het kan voorkomen dat de gemiddeld hoogste grondwaterstand
-                              niet is waargenomen. Gewoonlijk betekent dit ook dat de hoogste grondwaterstand niet
-                              is bereikt maar in bijzondere gevallen, zoals wanneer de grond recent is opgebracht,
-                              kan het zijn dat de stand van het grondwater nog niet tot waarneembare veranderingen
-                              in de grond heeft geleid. Het kan ook voorkomen dat het interval waarin de gemiddeld
-                              hoogste grondwaterstand zich bevindt niet is beschreven of niet is bemonsterd. Wanneer
-                              het gegeven niet is waargenomen ontbreekt het gegeven.
+                              van bepaalde planten kunnen bijdragen aan de bepaling.  Het kan voorkomen dat de gemiddeld
+                              hoogste grondwaterstand niet is waargenomen. Gewoonlijk betekent dit ook dat de hoogste
+                              grondwaterstand niet is bereikt maar in bijzondere gevallen, zoals wanneer de grond
+                              recent is opgebracht, kan het zijn dat de stand van het grondwater nog niet tot waarneembare
+                              veranderingen in de grond heeft geleid. Het kan ook voorkomen dat het interval waarin
+                              de gemiddeld hoogste grondwaterstand zich bevindt niet is beschreven of niet is bemonsterd.
+                              Wanneer het gegeven niet is waargenomen ontbreekt het gegeven.
                            </p>
                            
                         </td>
@@ -7994,17 +7946,17 @@
                      </tr>
                      <tr>
                         <th>&nbsp;&nbsp;Waardebereik</th>
-                        <td>0 tot 50</td>
+                        <td>Vanaf 0</td>
                      </tr>
                      <tr>
                         <th>Regels</th>
                         <td>
                            
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven ontbreekt wanneer de waarde van het attribuut <em>beschreven materiaal</em> gelijk is aan <em>gesteente</em>. In andere gevallen mag het gegeven ontbreken.
-                              De waarde van het gegeven is niet kleiner dan de waarde van het attribuut gemiddeld
-                              hoogste grondwaterstand.
-                              De waarde van het gegeven is niet groter dan de waarde van het attribuut einddiepte
-                              boren van de entiteit Boring.
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van het attribuut mag niet kleiner zijn dan de waarde van het attribuut
+                              <em>gemiddeld hoogste grondwaterstand</em>.
+                           </p>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van het attribuut mag niet groter zijn dan de waarde van het attribuut <em>einddiepte boren</em>van de entiteit <em>Boring</em>.
                            </p>
                            
                         </td>
@@ -8015,15 +7967,13 @@
                            
                            <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De diepte van het niveau wordt geschat op basis van aspecten als kleur, de aanwezigheid
                               van ijzervlekken of concreties. De terreintoestand en het al dan niet aanwezig zijn
-                              van bepaalde planten kunnen bijdragen aan de bepaling.
-                              Wanneer het boorprofiel aan de eisen van klasse 2 van de beschrijfprocedure voldoet,
-                              wordt het gegeven vastgelegd. Het kan voorkomen dat de gemiddeld laagste grondwaterstand
-                              niet is waargenomen. Gewoonlijk betekent dit ook dat de laagste grondwaterstand niet
-                              is bereikt maar in bijzondere gevallen, zoals wanneer de grond recent is opgebracht,
-                              kan het zijn dat de stand van het grondwater nog niet tot waarneembare veranderingen
-                              in de grond heeft geleid. Het kan ook voorkomen dat het interval waarin de gemiddeld
-                              laagste grondwaterstand zich bevindt niet is beschreven of niet is bemonsterd. Wanneer
-                              het gegeven niet is waargenomen ontbreekt het gegeven.
+                              van bepaalde planten kunnen bijdragen aan de bepaling. Het kan voorkomen dat de gemiddeld
+                              laagste grondwaterstand niet is waargenomen. Gewoonlijk betekent dit ook dat de laagste
+                              grondwaterstand niet is bereikt maar in bijzondere gevallen, zoals wanneer de grond
+                              recent is opgebracht, kan het zijn dat de stand van het grondwater nog niet tot waarneembare
+                              veranderingen in de grond heeft geleid. Het kan ook voorkomen dat het interval waarin
+                              de gemiddeld laagste grondwaterstand zich bevindt niet is beschreven of niet is bemonsterd.
+                              Wanneer het gegeven niet is waargenomen ontbreekt het gegeven.
                            </p>
                            
                         </td>
@@ -8060,20 +8010,31 @@
                      <th>Regels</th>
                      <td>
                         
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Eén van de volgende gegevens moet aanwezig zijn het attribuut <em>bijzonder materiaal</em>, de entiteit <em>Laagdeel,</em>de entiteit <em>Laagje</em> of de entiteit <em>Grond</em>.
+                        </p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>
+                        
                         <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De ondergrond wordt beschouwd als opgebouwd uit lagen en dat zijn homogene eenheden
                            die zich vooral in horizontale richting uitstrekken en in verticale richting duidelijk
                            begrensd zijn. Een laag bestaat in deze versie van de catalogus uit grond of uit bijzonder
                            materiaal; lagen die uit gesteente bestaan vallen buiten het bereik. 
-                           Het criterium op basis waarvan een laag in een boorprofiel wordt begrensd varieert.
+                        </p>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het criterium op basis waarvan een laag in een boorprofiel wordt begrensd varieert.
                            In een boorprofiel dat het resultaat is van de beschrijving van geroerde monsters,
-                           vallen de grenzen samen met grenzen tussen monsters en is de laag  een beschrijfeenheid.
+                           vallen de grenzen samen met grenzen tussen monsters en is de laag een beschrijfeenheid.
                            In een boorprofiel dat het resultaat is van de beschrijving van ongeroerde monsters,
-                           markeren de  grenzen veranderingen in materiaal of structuur en is de laag een genetische
-                           eenheid, een eenheid die op een bepaalde manier is ontstaan. Lagen aan maaiveld kunnen
-                           gevormd zijn door de mens, en heten dan antropogeen. Niet-antropogene  lagen zijn
-                           gewoonlijk lagen die waarvan het mateiraal onder geljke omstandigheden zijn afgezet.
-                           Een uitzondering daarop zijn lagen die gedefinieerd zijn op grond van structuur die
-                           na afzetting van het materiaal is ontstaan; die lagen heten post-sedimentair.
+                           markeren de grenzen veranderingen in materiaal of structuur en is de laag een genetische
+                           eenheid, een eenheid die op een bepaalde manier is ontstaan. Lagen aan maaiveld, kunnen
+                           gevormd zijn door de mens, en heten dan antropogeen. Niet-antropogene lagen zijn gewoonlijk
+                           lagen waarvan het materiaal onder gelijke omstandigheden is afgezet. Een uitzondering
+                           daarop zijn lagen die gedefinieerd zijn op grond van structuur die na afzetting van
+                           het materiaal is ontstaan; die lagen heten post-sedimentair.
                         </p>
                         
                      </td>
@@ -8143,17 +8104,18 @@
                      </tr>
                      <tr>
                         <th>&nbsp;&nbsp;Waardebereik</th>
-                        <td>0 tot 1500</td>
+                        <td>Vanaf 0</td>
                      </tr>
                      <tr>
                         <th>Regels</th>
                         <td>
                            
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Wanneer de waarde van het attribuut <em>continu bemonsterd</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>ja</em>, is het boorprofiel beschreven als een opeenvolging van lagen en niet-beschreven
-                              intervallen en die sluiten precies op elkaar aan.
-                              Wanneer de waarde van het attribuut continu bemonsterd van de entiteit Boorprofiel
-                              gelijk is aan nee, is het boorprofiel beschreven als een opeenvolging van lagen en
-                              niet-beschreven intervallen en die overlappen elkaar niet.
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De lagen en niet-beschreven intervallen van een Boorprofiel moeten precies op elkaar
+                              aansluiten wanneer de waarde van het attribuut <em>continu bemonsterd</em>van de entiteit <em>Boorprofiel</em>gelijk is aan <em>ja</em>.
+                           </p>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De lagen en niet-beschreven intervallen van een Boorprofiel mogen niet overlappen
+                              wanneer de waarde van het attribuut <em>continu bemonsterd</em>van de entiteit <em>Boorprofiel</em>gelijk is aan <em>nee</em>.
                            </p>
                            
                         </td>
@@ -8182,7 +8144,7 @@
                            
                            <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De manier waarop de bovengrens van de laag is bepaald, met in het geval de grens op
                               een in de monsters waargenomen verandering is gebaseerd een aanduiding van hoe scherp
-                              de grens is. 
+                              de grens is.
                            </p>
                            
                         </td>
@@ -8208,21 +8170,11 @@
                         <td>Waardelijst uitbreidbaar</td>
                      </tr>
                      <tr>
-                        <th>Regels IMBRO/A</th>
-                        <td>
-                           
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch</em>, heeft het gegeven geen waarde.
-                           </p>
-                           
-                        </td>
-                     </tr>
-                     <tr>
                         <th>Toelichting</th>
                         <td>
                            
                            <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Wanneer de bovengrens samenvalt met het maaiveld of de waterbodem, geldt die als waargenomen.
                               
-                              Het gegeven is onder NEN 5104 niet vastgelegd.
                            </p>
                            
                         </td>
@@ -8279,45 +8231,16 @@
                      </tr>
                      <tr>
                         <th>&nbsp;&nbsp;Waardebereik</th>
-                        <td>0 tot 1500</td>
+                        <td>Vanaf 0</td>
                      </tr>
                      <tr>
                         <th>Regels</th>
                         <td>
                            
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De ondergrens is groter dan de bovengrens van de laag. 
-                              Het verschil tussen de diepte van de ondergrens en de bovengrens van een laag is niet
-                              kleiner dan 0.02 meter en niet groter dan 1 meter. 
-                              De ondergrens van de onderste laag is niet groter dan de einddiepte bemonstering van
-                              de entiteit Boring.
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De <em>ondergrens</em>moet groter zijn dan de <em>bovengrens</em>van de laag.
                            </p>
                            
-                        </td>
-                     </tr>
-                     <tr>
-                        <th>Regels IMBRO/A</th>
-                        <td>
-                           
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">In afwijking van de regel dat het verschil tussen de diepte van de ondergrens en de
-                              bovengrens van een laag niet kleiner is dan 0.02 meter en niet groter dan 1 meter,
-                              wordt er voor IMBRO/A geen beperking gesteld aan de laagdikte.
-                              Voor IMBRO/A-gegevens kan de einddiepte bemonstering niet bekend zijn, in dat geval
-                              is de ondergrens van de onderste laag niet groter dan de einddiepte boren van de entiteit
-                              Boring.
-                           </p>
-                           
-                        </td>
-                     </tr>
-                     <tr>
-                        <th>Toelichting</th>
-                        <td>
-                           
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">In de beschrijfprocedure NEN-EN-ISO 14688-1 is vastgelegd dat een laag in het boorprofiel
-                              minimaal 2 cm en maximaal 1 m dik is, met als uitzondering het geval waarin de monsters
-                              zijn genomen met de bemonsteringsmethoden <em>opAfstandDroog, opAfstandNat</em> en <em>opDiepteGrijpen</em>, want dan is een laag minimaal 10 cm dik.
-                              Dit betekent dat er minimaal iedere meter van het bemonsterde traject een waarneming
-                              is gedaan.
-                              Onder NEN 5104 is het bereik niet vastgelegd.
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De <em>ondergrens</em>mag niet groter zijn dan de <em>einddiepte bemonstering</em>van de entiteit <em>Boring</em>.
                            </p>
                            
                         </td>
@@ -8346,7 +8269,7 @@
                            
                            <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De manier waarop de ondergrens van de laag is bepaald, met in het geval de grens op
                               een in de monsters waargenomen verandering is gebaseerd een aanduiding van hoe scherp
-                              de grens is. 
+                              de grens is.
                            </p>
                            
                         </td>
@@ -8370,15 +8293,6 @@
                      <tr>
                         <th>&nbsp;&nbsp;Type</th>
                         <td>Waardelijst uitbreidbaar</td>
-                     </tr>
-                     <tr>
-                        <th>Regels IMBRO/A</th>
-                        <td>
-                           
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch</em>, heeft het gegeven geen waarde.
-                           </p>
-                           
-                        </td>
                      </tr>
                      <tr>
                         <th>Mogelijk geen waarde</th>
@@ -8432,7 +8346,7 @@
                         <th>Toelichting</th>
                         <td>
                            
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven heeft betrekking op een waarneming en krijgt alleen de waarde <em>ja</em>, wanneer de beschrijver geconstateerd heeft dat de laag antropogeen is. 
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven heeft betrekking op een waarneming en krijgt alleen de waarde <em>ja</em>, wanneer de beschrijver geconstateerd heeft dat de laag antropogeen is.
                            </p>
                            
                         </td>
@@ -8459,7 +8373,7 @@
                         <th>Definitie</th>
                         <td>
                            
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De omschrijving van de wijze waarop de mens in de opbouw van de ondergrond heeft ingegrepen.</p>
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De omschrijving van de wijze waarop een antropogene laag is ontstaan.</p>
                            
                         </td>
                      </tr>
@@ -8487,8 +8401,10 @@
                         <th>Regels</th>
                         <td>
                            
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is aanwezig wanneer de waarde van het attribuut <em>antropogeen</em> gelijk is aan <em>ja</em>. In andere gevallen ontbreekt het gegeven.
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>antropogeen</em>gelijk is aan <em>ja</em>.
                            </p>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut mag niet aanwezig zijn in alle andere gevallen.</p>
                            
                         </td>
                      </tr>
@@ -8496,12 +8412,9 @@
                         <th>Toelichting</th>
                         <td>
                            
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Menselijk ingrijpen leidt tot veranderingen van de eigenschappen van de ondergrond.
-                              Vanuit geotechnisch perspectief is het van belang het menselijk ingrijpen te typeren
-                              om ten minste een globaal beeld te geven van de aard van de verandering. Zo zal los
-                              gestort zand een lagere dichtheid hebben dan zand dat van nature aanwezig is, terwijl
-                              zand dat in lagen verdicht onder een snelweg is aangebracht juist een hogere dichtheid
-                              heeft. 
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Menselijk ingrijpen leidt tot veranderingen in de samenstelling en de eigenschappen
+                              van de ondergrond. Het is van belang het menselijk ingrijpen te typeren om ten minste
+                              een globaal beeld te geven van de aard van de verandering. 
                            </p>
                            
                         </td>
@@ -8558,12 +8471,10 @@
                         <th>Toelichting</th>
                         <td>
                            
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Een laag bestaat uit bijzonder materiaal wanneer meer dan 50% van de massa bijzonder
-                              materiaal is, en bij een groot verschil in volumieke massa wanneer het materiaal bepalend
-                              is voor de geotechnische eigenschappen. 
-                              Dat materiaal kan zowel natuurlijk als antropogeen van aard zijn. 
-                              Een laag die uit bijzonder materiaal bestaat wordt minder uitgebreid beschreven dan
-                              een laag die uit grond of gesteente bestaat.
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Een laag bestaat uit bijzonder materiaal wanneer meer dan de helft van het volume
+                              uit bijzonder materiaal bestaat. Dat materiaal kan zowel natuurlijk als antropogeen
+                              van aard zijn. Een laag die uit bijzonder materiaal bestaat wordt minder uitgebreid
+                              beschreven dan een laag die uit grond of gesteente bestaat.
                            </p>
                            
                         </td>
@@ -8590,7 +8501,9 @@
                         <th>Definitie</th>
                         <td>
                            
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De  bodemhorizont waarvan de laag  deel uitmaakt </p>
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De aanduiding die aangeeft of de laag die niet-antropogeen is een eenheid is die gedefinieerd
+                              is op grond van structuur die na afzetting van het materiaal is ontstaan.
+                           </p>
                            
                         </td>
                      </tr>
@@ -8613,6 +8526,29 @@
                      <tr>
                         <th>&nbsp;&nbsp;Type</th>
                         <td>Waardelijst niet uitbreidbaar</td>
+                     </tr>
+                     <tr>
+                        <th>Regels</th>
+                        <td>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut moet aanwezig zijn wanneer het attribuut <em>bijzonder materiaal</em>niet aanwezig is.
+                           </p>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>bijzonder materiaal</em>aanwezig is.
+                           </p>
+                           
+                        </td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Na afzetting kan de laagopbouw van sedimenten veranderen door processen die op de
+                              grond inwerken. Het gegeven geeft aan of door het optreden van een dergelijk verandering
+                              een interval is ontstaan dat als een aparte laag wordt onderscheiden.
+                           </p>
+                           
+                        </td>
                      </tr>
                      <tr>
                         <th>Mogelijk geen waarde</th>
@@ -8661,6 +8597,15 @@
                         <td>Waardelijst uitbreidbaar</td>
                      </tr>
                      <tr>
+                        <th>Regels</th>
+                        <td>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>bijzonder materiaal</em>aanwezig is.
+                           </p>
+                           
+                        </td>
+                     </tr>
+                     <tr>
                         <th>Toelichting</th>
                         <td>
                            
@@ -8692,7 +8637,7 @@
                         <th>Definitie</th>
                         <td>
                            
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De aanduiding die aangeeft of de grond wortels of resten van wortels bevat.</p>
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De aanduiding die aangeeft of de laag wortels of resten van wortels bevat.</p>
                            
                         </td>
                      </tr>
@@ -8715,6 +8660,18 @@
                      <tr>
                         <th>&nbsp;&nbsp;Type</th>
                         <td>Waardelijst niet uitbreidbaar</td>
+                     </tr>
+                     <tr>
+                        <th>Regels</th>
+                        <td>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut moet aanwezig zijn wanneer het attribuut <em>bijzonder materiaal</em>niet aanwezig is.
+                           </p>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>bijzonder materiaal</em>aanwezig is.
+                           </p>
+                           
+                        </td>
                      </tr>
                      <tr>
                         <th>Toelichting</th>
@@ -8746,8 +8703,8 @@
                         <th>Definitie</th>
                         <td>
                            
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Een verstoring van de opbouw van de laag die herkend wordt als het gevolg van menselijk
-                              activiteit.
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Een verstoring van de opbouw van de laag die herkend wordt als het gevolg van de aanwezigheid
+                              van de mens.
                            </p>
                            
                         </td>
@@ -8771,6 +8728,26 @@
                      <tr>
                         <th>&nbsp;&nbsp;Type</th>
                         <td>Waardelijst uitbreidbaar</td>
+                     </tr>
+                     <tr>
+                        <th>Regels</th>
+                        <td>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>antropogeen</em>gelijk is aan <em>ja</em>.
+                           </p>
+                           
+                        </td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven geeft, in het geval de opbouw van een laag enigszins is verstoord door
+                              de aanwezigheid van de mens, wat de aard van de verstoring is. Het gaat om de verstoring
+                              van natuurlijke lagen, omdat het gegeven alleen in dat geval toegevoegde waarde heeft.
+                           </p>
+                           
+                        </td>
                      </tr>
                      <tr>
                         <th>Mogelijk geen waarde</th>
@@ -8827,7 +8804,9 @@
                            <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven kan gebruikers direct inzicht geven in de plaats van de eenheid in een
                               geologisch model. Het gegeven heeft eerder een interpretatief dan een beschrijvend
                               karakter, maar het niveau van interpretatie is zo globaal dat iedere beschrijver in
-                              het vakgebied geacht wordt over de noodzakelijke kennis te beschikken. 
+                              het vakgebied geacht wordt over de noodzakelijke kennis te beschikken. Ook zijn deze
+                              gegevens het beste direct bij de beschrijving van boormonsters vast te leggen in plaats
+                              van achteraf op basis van alleen de boormonsterbeschrijving.
                            </p>
                            
                         </td>
@@ -8882,8 +8861,10 @@
                         <th>Regels</th>
                         <td>
                            
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is aanwezig wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> gelijk is aan <em>klasse2ongeroerd</em> of <em>klasse2ongedifferentieerd</em>en het gegeven<em>bijzonder materiaal</em>ontbreekt<em>.</em> In andere gevallen ontbreekt het gegeven.
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut moet aanwezig zijn wanneer het attribuut <em>bijzonder materiaal</em>niet aanwezig is en de waarde van het attribuut <em>beschrijfkwaliteit</em>van de entiteit <em>Boorprofiel</em>gelijk is aan <em>geologischStandaardOngeroerd</em>of <em>geologischUitgebreidOngeroerd</em>.
                            </p>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut mag niet aanwezig zijn in alle andere gevallen.</p>
                            
                         </td>
                      </tr>
@@ -8891,7 +8872,10 @@
                         <th>Toelichting</th>
                         <td>
                            
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is onder NEN 5104 niet vastgelegd.</p>
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven heeft alleen betekenis als het om natuurlijke lagen gaat. Het al dan niet
+                              intact zijn bepaalt of  gegevens over de interne opbouw van een laag voorhanden zijn
+                              en dat soort gegevens geeft nadere informatie over het ontstaan van de laag.
+                           </p>
                            
                         </td>
                      </tr>
@@ -8944,6 +8928,17 @@
                         <td>Waardelijst niet uitbreidbaar</td>
                      </tr>
                      <tr>
+                        <th>Regels</th>
+                        <td>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur</em>intact gelijk is aan <em>ja</em>en de waarde van het attribuut <em>post</em>-<em>sedimentair</em>gelijk is aan <em>nee</em>.
+                           </p>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut mag niet aanwezig zijn in alle andere gevallen.</p>
+                           
+                        </td>
+                     </tr>
+                     <tr>
                         <th>Toelichting</th>
                         <td>
                            
@@ -8975,7 +8970,9 @@
                         <th>Definitie</th>
                         <td>
                            
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De aanduiding die aangeeft of de laag scheef staat.</p>
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De aanduiding die aangeeft of de laag scheef staat, terwijl die oorspronkelijk wel
+                              (sub-)horizontaal is afgezet.
+                           </p>
                            
                         </td>
                      </tr>
@@ -9003,8 +9000,10 @@
                         <th>Regels</th>
                         <td>
                            
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is aanwezig wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> gelijk is aan <em>klasse2ongeroerd</em> en mag aanwezig zijn wanneer de waarde gelijk is aan <em>klasse2ongedifferentieerd.</em> In andere gevallen ontbreekt het gegeven.
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur</em>intact gelijk is aan <em>ja</em>.
                            </p>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut mag niet aanwezig zijn in alle andere gevallen.</p>
                            
                         </td>
                      </tr>
@@ -9016,7 +9015,6 @@
                               worden lagen onder een hoek afgezet en na afzetting kunnen lagen zijn scheefgesteld
                               doordat ze onder druk zijn komen te staan. Het gegeven moet in die context worden
                               begrepen. 
-                              Het gegeven is onder NEN 5104 niet vastgelegd. 
                            </p>
                            
                         </td>
@@ -9043,9 +9041,7 @@
                         <th>Definitie</th>
                         <td>
                            
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Van een laag die gedefinieerd is op basis van structuur die na afzetting van het materiaal
-                              is ontstaan, de aard van de structuur.
-                           </p>
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De interne opbouw van een laag.</p>
                            
                         </td>
                      </tr>
@@ -9068,6 +9064,29 @@
                      <tr>
                         <th>&nbsp;&nbsp;Type</th>
                         <td>Waardelijst uitbreidbaar</td>
+                     </tr>
+                     <tr>
+                        <th>Regels</th>
+                        <td>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur</em>intact gelijk is aan <em>ja</em>.
+                           </p>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut mag niet aanwezig zijn in alle andere gevallen.</p>
+                           
+                        </td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven geeft inzicht in de omstandigheden waaronder de laag is gevormd. In het
+                              geval van sedimentaire lagen wordt de interne opbouw bepaald door de processen die
+                              tot afzetting hebben geleid. In het geval van post-sedimentaire lagen zijn processen
+                              die vanaf het aardoppervlak op de grond inwerken bepalend.
+                           </p>
+                           
+                        </td>
                      </tr>
                      <tr>
                         <th>Mogelijk geen waarde</th>
@@ -9116,6 +9135,17 @@
                      <tr>
                         <th>&nbsp;&nbsp;Type</th>
                         <td>Waardelijst uitbreidbaar</td>
+                     </tr>
+                     <tr>
+                        <th>Regels</th>
+                        <td>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur</em>intact gelijk is aan <em>ja</em>en de waarde van het attribuut <em>post</em>-<em>sedimentair</em>gelijk is aan <em>nee</em>.
+                           </p>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven mag niet aanwezig zijn in alle andere gevallen.</p>
+                           
+                        </td>
                      </tr>
                      <tr>
                         <th>Toelichting</th>
