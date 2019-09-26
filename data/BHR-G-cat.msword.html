@@ -8,7 +8,7 @@
    <body>
       <p>Conceptual model/Geologisch booronderzoek (BHR-G)/20190923</p>
       <p>Imvertor: 1.55.1</p>
-      <p>Model release: Conceptualmodel-GeologischbooronderzoekBHR-G-0.9-0-20190923-20190926-103124</p>
+      <p>Model release: Conceptualmodel-GeologischbooronderzoekBHR-G-0.9-0-20190923-20190926-105945</p>
       <hr>
       <section id="" level="3">
          <h1>Artikel 1  Entiteiten en attributen   </h1><a class="anchor" name="graph_EAID_660D0220_39EE_4290_AD92_C8E8CCEDB502"></a><a class="anchor" name="global_class_DomeinmodelBHRBHRG_Booronderzoek"></a><section id="global_class_DomeinmodelBHRBHRG_Booronderzoek" level="4">
@@ -659,9 +659,12 @@
                         <th>Regels</th>
                         <td>
                            
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>registratiestatus</em>van de entiteit <em>Registratiegeschiedenis</em>gelijk is aan <em>voltooid</em>.
-                              Het attribuut mag niet aanwezig zijn in alle andere gevallen.
-                              De <em>rapportagedatum onderzoek</em>mag niet liggen na het <em>tijdstip voltooiing registratie</em>van de entiteit <em>Registratiegeschiedenis</em>.
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>registratiestatus</em> van de entiteit <em>Registratiegeschiedenis</em> gelijk is aan <em>voltooid</em>.
+                           </p>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut mag niet aanwezig zijn in alle andere gevallen.</p>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De <em>rapportagedatum onderzoek</em> mag niet liggen na het <em>tijdstip voltooiing registratie</em> van de entiteit <em>Registratiegeschiedenis</em>.
                            </p>
                            
                         </td>
@@ -1655,7 +1658,7 @@
                      </tr>
                      <tr>
                         <th>&nbsp;&nbsp;Waardebereik</th>
-                        <td>1 januari 1877 tot heden</td>
+                        <td>Vanaf 1 januari 1877</td>
                      </tr>
                      <tr>
                         <th>Regels</th>
@@ -2018,18 +2021,14 @@
                         <td>Datum</td>
                      </tr>
                      <tr>
-                        <th>&nbsp;&nbsp;Naam IMBRO/A</th>
-                        <td>OnvolledigeDatum</td>
-                     </tr>
-                     <tr>
                         <th>&nbsp;&nbsp;Waardebereik</th>
-                        <td>1 januari 1980 tot heden</td>
+                        <td>Vanaf 1 januari 1877</td>
                      </tr>
                      <tr>
                         <th>Regels</th>
                         <td>
                            
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De datum ligt niet na de <em>startdatum rapportage</em> van de entiteit <em>Rapportagegeschiedenis</em>.
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De <em>datum locatiebepaling</em>mag niet liggen na de <em>startdatum rapportage</em>van de entiteit <em>Rapportagegeschiedenis</em>.
                            </p>
                            
                         </td>
@@ -2239,7 +2238,8 @@
                         <th>Regels</th>
                         <td>
                            
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Een locatie op land heeft de waarde <em>maaiveld</em> of <em>waterbodem</em>. Een locatie op zee heeft de waarde <em>waterbodem</em>.
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van het attribuut moet gelijk zijn aan <em>maaiveld</em> of <em>waterbodem</em>wanneer de locatie op land ligt. 
+                              De waarde van het attribuut moet gelijk zijn aan <em>waterbodem</em>wanneer de locatie op zee ligt. 
                            </p>
                            
                         </td>
@@ -2251,8 +2251,7 @@
                            <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het domein bevat begrippen die naar een oppervlak verwijzen. Het lokaal verticaal
                               referentiepunt geldt als het punt waar het onderzoek aan de ondergrond begonnen is.
                               De laag slib die plaatselijk op de waterbodem ligt, wordt niet tot de ondergrond gerekend
-                              en ligt boven het lokaal verticaal referentiepunt.<br clear="none"></br>
-                              
+                              en ligt boven het lokaal verticaal referentiepunt. 
                            </p>
                            
                         </td>
@@ -2380,16 +2379,10 @@
                         <th>Regels</th>
                         <td>
                            
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is aanwezig wanneer de waarde van het attribuut <em>lokaal verticaal referentiepunt</em> gelijk is aan <em>waterbodem</em>. In andere gevallen ontbreekt het gegeven.
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>lokaal</em> 
+                              <em>verticaal referentiepunt</em>gelijk is aan <em>waterbodem</em>. 
+                              Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                            </p>
-                           
-                        </td>
-                     </tr>
-                     <tr>
-                        <th>Regels IMBRO/A</th>
-                        <td>
-                           
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Voor IMBRO/A-gegevens mag het gegeven ontbreken.</p>
                            
                         </td>
                      </tr>
@@ -2401,8 +2394,7 @@
                               gehouden met de veranderlijkheid die het gevolg is van getijden. Het gegeven heeft
                               vooral betekenis op land. Het geeft extra informatie over de omstandigheden op plaatsen
                               op land waar de waterdiepte veranderlijk is, bijvoorbeeld in uiterwaarden. De waterdiepte
-                              moet beschouwd worden als indicatief.<br clear="none"></br>
-                              
+                              moet beschouwd worden als indicatief. 
                            </p>
                            
                         </td>
@@ -2457,7 +2449,8 @@
                         <th>Regels</th>
                         <td>
                            
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Een locatie aan de landzijde van de UNCLOS-basislijn heeft de waarde <em>NAP</em> en een locatie aan de zeezijde van de lijn de waarde <em>LAT</em> of <em>MSL</em>.
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van het attribuut moet gelijk zijn aan <em>NAP</em>wanneer de locatie aan de landzijde van de UNCLOS-basislijn ligt. 
+                              De waarde van het attribuut moet gelijk zijn aan <em>LAT</em>of <em>MSL</em>wanneer de locatie aan de zeezijde van de UNCLOS-lijn ligt.
                            </p>
                            
                         </td>
@@ -2505,27 +2498,14 @@
                         <td>Datum</td>
                      </tr>
                      <tr>
-                        <th>&nbsp;&nbsp;Naam IMBRO/A</th>
-                        <td>OnvolledigeDatum</td>
-                     </tr>
-                     <tr>
                         <th>&nbsp;&nbsp;Waardebereik</th>
-                        <td>1 januari 1980 tot heden</td>
+                        <td>Vanaf 1 januari 1877</td>
                      </tr>
                      <tr>
                         <th>Regels</th>
                         <td>
                            
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De datum ligt niet na de <em>startdatum rapportage</em> van de entiteit <em>Rapportagegeschiedenis</em>.
-                           </p>
-                           
-                        </td>
-                     </tr>
-                     <tr>
-                        <th>Regels IMBRO/A</th>
-                        <td>
-                           
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Voor IMBRO/A-gegevens kan de <em>verschuiving</em> niet bepaald zijn; alleen in dat geval heeft het gegeven geen waarde.
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De datum <em>verticale positiebepaling</em>mag niet liggen na de <em>startdatum rapportage</em>van de entiteit <em>Rapportagegeschiedenis</em>.
                            </p>
                            
                         </td>
@@ -2536,13 +2516,16 @@
                            
                            <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is van belang in verband met mogelijke veranderingen in de positie van
                               het maaiveld of de waterbodem.
+                              In het geval de positie is bepaald op basis van het AHN geldt als datum 1 januari
+                              van het jaar waarin de gebruikte versie van het AHN voor het gebied waarin de locatie
+                              ligt, is vastgesteld.
                            </p>
                            
                         </td>
                      </tr>
                      <tr>
                         <th>Mogelijk geen waarde</th>
-                        <td>Ja</td>
+                        <td>Nee</td>
                      </tr>
                   </tbody>
                </table>
@@ -2587,16 +2570,6 @@
                      <tr>
                         <th>&nbsp;&nbsp;Type</th>
                         <td>Waardelijst uitbreidbaar</td>
-                     </tr>
-                     <tr>
-                        <th>Regels IMBRO/A</th>
-                        <td>
-                           
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Voor IMBRO/A-gegevens kan de verschuiving niet bepaald zijn; alleen in dat geval heeft
-                              het gegeven de waarde <em>geen</em>.
-                           </p>
-                           
-                        </td>
                      </tr>
                      <tr>
                         <th>Toelichting</th>
