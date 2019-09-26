@@ -1,7 +1,7 @@
 <section id="cat" class="normative" level="1">
    <h2>Gegevensdefinitie</h2>
    <p><b>Deze tekst is normatief.</b>
-      <!--Conceptualmodel-GeologischbooronderzoekBHR-G-0.9-0-20190923-20190926-212842 imvertor 1.55.1--></p>
+      <!--Conceptualmodel-GeologischbooronderzoekBHR-G-0.9-0-20190923-20190926-215409 imvertor 1.55.1--></p>
    <section id="" level="3">
       <h3>Het domeinmodel   </h3>
       <div class="imageinfo overview"><img src="data/Images/EAID_A794A5F1_C52E_4a52_952F_D4257486C44D.png" usemap="#imagemap-EAID_A794A5F1_C52E_4a52_952F_D4257486C44D"><map name="imagemap-EAID_A794A5F1_C52E_4a52_952F_D4257486C44D">
@@ -4465,6 +4465,9 @@
          </section>
       </section><a class="anchor" name="graph_EAID_ABF55F88_28B6_4d57_8D8A_F121A3AA0F51"></a><a class="anchor" name="global_class_DomeinmodelBHRBHRG_GeboordInterval"></a><section id="global_class_DomeinmodelBHRBHRG_GeboordInterval" level="4">
          <h4>   Geboord interval</h4>
+         <div class="imageinfo "><img src="data/Images/EAID_88E57FB5_7AA2_46aa_B38C_EC0779C21B6D.png" usemap="#imagemap-EAID_88E57FB5_7AA2_46aa_B38C_EC0779C21B6D"><map name="imagemap-EAID_88E57FB5_7AA2_46aa_B38C_EC0779C21B6D">
+               <area shape="rect" coords="10,98,204,10" alt="" href="#graph_EAID_ABF55F88_28B6_4d57_8D8A_F121A3AA0F51"></map><p><b>Geboord interval - detail</b></p>
+         </div>
          <table width="100%">
             <colgroup width="30%"></colgroup>
             <colgroup width="70%"></colgroup>
@@ -4492,9 +4495,6 @@
                         uitgestoken, waarna het interval wordt uitgeboord door mechanisch te draaien. Ook
                         kan op een en dezelfde diepte een bepaalde boortechniek herhaaldelijk worden toegepast,
                         waarbij de diameter steeds toeneemt. Als gevolg kunnen geboorde intervallen overlappen.
-                        Voor onderzoek dat onder IMBRO/A valt is zelden gespecificeerd welke boortechniek
-                        over welk interval is gebruikt. Veelal is er sprake van slechts een interval en dat
-                        dekt het hele geboorde traject. 
                      </p>
                      
                   </td>
@@ -4554,13 +4554,15 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Waardebereik</th>
-                     <td>0 tot niet-gespecificeerd</td>
+                     <td>Vanaf 0</td>
                   </tr>
                   <tr>
-                     <th>Regels</th>
+                     <th>Toelichting</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De algemene regel is dat de begindiepte van het bovenste interval de waarde <em>0</em> heeft, tenzij er materiaal is weggegraven. In dat geval is de waarde groter dan <em>0</em>.
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Normaliter is de begindiepte van het bovenste geboord interval gelijk aan 0. Wanneer
+                           materiaal is weggegraven en deze niet of summier is beschreven is de waarde groter
+                           dan 0.
                         </p>
                         
                      </td>
@@ -4619,15 +4621,16 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Waardebereik</th>
-                     <td>0 tot niet-gespecificeerd</td>
+                     <td>Vanaf 0</td>
                   </tr>
                   <tr>
                      <th>Regels</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De einddiepte is groter dan de begindiepte van het interval.
-                           De einddiepte van het onderste interval is gelijk aan de waarde van het attribuut
-                           einddiepte boren van de entiteit Boring.
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De <em>einddiepte</em>moet groter zijn dan de <em>begindiepte</em>van het <em>geboord interval</em>.
+                        </p>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De <em>einddiepte</em>van het onderste interval moet gelijk zijn aan de <em>einddiepte boren</em>van de entiteit <em>Boring</em>.
                         </p>
                         
                      </td>
@@ -4686,11 +4689,6 @@
                         
                         <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Bij de classificatie van boortechnieken wordt gekeken naar de manier waarop het gebruikte
                            apparaat de grond in is gedreven.
-                           Voor gegevens onder IMBRO/A is gewoonlijk alleen de boortechniek vastgelegd die over
-                           het hele geboorde traject als de belangrijkste is beschouwd. Dit probleem geldt in
-                           algemene zin, maar het komt het duidelijkst naar voren bij mechanische technieken.
-                           Daarbij komt het veel voor dat het bovenste deel met de hand is geboord, maar dit
-                           is eigenlijk nooit vermeld.
                         </p>
                         
                      </td>
@@ -4750,15 +4748,6 @@
                      <td>20 tot 3000</td>
                   </tr>
                   <tr>
-                     <th>Regels IMBRO/A</th>
-                     <td>
-                        
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Voor IMBRO/A-gegevens kan de <em>geboorde diameter</em> niet bekend zijn, alleen in dat geval heeft het gegeven geen waarde. 
-                        </p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
                      <th>Toelichting</th>
                      <td>
                         
@@ -4770,7 +4759,7 @@
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
-                     <td>Ja</td>
+                     <td>Nee</td>
                   </tr>
                </tbody>
             </table>
@@ -4778,6 +4767,10 @@
          </section>
       </section><a class="anchor" name="graph_EAID_0575B591_1E52_4c9b_A2D6_F043C4141D37"></a><a class="anchor" name="global_class_DomeinmodelBHRBHRG_BemonsterdInterval"></a><section id="global_class_DomeinmodelBHRBHRG_BemonsterdInterval" level="4">
          <h4>   Bemonsterd interval</h4>
+         <div class="imageinfo "><img src="data/Images/EAID_EA8F482E_F5CE_41b6_96A7_C247A9671C12.png" usemap="#imagemap-EAID_EA8F482E_F5CE_41b6_96A7_C247A9671C12"><map name="imagemap-EAID_EA8F482E_F5CE_41b6_96A7_C247A9671C12">
+               <area shape="rect" coords="31,283,236,217" alt="" href="#graph_EAID_0AB2C94F_0BED_4e73_A604_516206E06046">
+               <area shape="rect" coords="10,124,257,10" alt="" href="#graph_EAID_0575B591_1E52_4c9b_A2D6_F043C4141D37"></map><p><b>Bemonsterd interval - detail</b></p>
+         </div>
          <table width="100%">
             <colgroup width="30%"></colgroup>
             <colgroup width="70%"></colgroup>
@@ -4802,10 +4795,7 @@
                      
                      <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">In het geval het bovenste deel van de ondergrond is weggegraven en in het onderzoek
                         is vastgesteld dat het net zo beschreven moet worden als de monsters uit de geboorde
-                        intervallen, wordt het weggegraven deel als een bemonsterd interval beschreven. 
-                        Voor gegevens onder IMBRO/A is alleen bij uitzondering vastgelegd welk interval met
-                        welke bemonstering is gemaakt. Meestal valt het bemonsterd interval samen met het
-                        hele geboorde traject.
+                        intervallen, wordt het weggegraven deel als een bemonsterd interval beschreven.
                      </p>
                      
                   </td>
@@ -4814,9 +4804,6 @@
                   <th>Relaties met andere entiteiten</th>
                   <td>Bemonsterd interval 
                      bemonsterd met 0-1 
-                     <a class="link" href="#global_class_DomeinmodelBHRBHRG_Bemonsteringsapparaat">Bemonsteringsapparaat</a>
-                     <br>Bemonsterd interval 
-                     bemonsteringsapparaat 0-1 
                      <a class="link" href="#global_class_DomeinmodelBHRBHRG_Bemonsteringsapparaat">Bemonsteringsapparaat</a>
                      <br>
                      <a class="link" href="#global_class_DomeinmodelBHRBHRG_Boring">Boring</a>
@@ -4869,7 +4856,7 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Waardebereik</th>
-                     <td>0 tot niet-gespecificeerd</td>
+                     <td>Vanaf 0</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -4923,15 +4910,16 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Waardebereik</th>
-                     <td>0 tot niet-gespecificeerd</td>
+                     <td>Vanaf 0</td>
                   </tr>
                   <tr>
                      <th>Regels</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De einddiepte is groter dan de begindiepte van het interval.
-                           De einddiepte van het onderste interval is niet groter dan de einddiepte boren van
-                           de entiteit Boring.
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De <em>einddiepte</em>moet groter zijn dan de <em>begindiepte</em>van het bemonsterd interval.
+                        </p>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De <em>einddiepte</em>van het onderste interval mag niet groter zijn dan de <em>einddiepte boren</em>van de entiteit <em>Boring</em>.
                         </p>
                         
                      </td>
@@ -5036,8 +5024,6 @@
                         
                         <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Bij de classificatie van bemonsteren wordt gekeken naar de manier waarop het gebruikte
                            apparaat de grond in is gedreven.
-                           Voor gegevens onder IMBRO/A is gewoonlijk alleen de bemonstering vastgelegd die over
-                           het hele geboorde traject als de belangrijkste is beschouwd.
                         </p>
                         
                      </td>
@@ -5098,7 +5084,9 @@
                            door de keuze van boortechniek, bemonsteringsmethode en bemonsteringsapparaat. Omdat
                            ook de samenstelling van de grond van invloed is, kan het nodig blijken de keuze aan
                            te passen als de grondsoort anders blijkt te zijn dan gedacht.
-                           De bemonsteringskwaliteit geeft aan binnen welke grenzen de primaire mate van verstoring
+                        </p>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De bemonsteringskwaliteit geeft aan binnen welke grenzen de primaire mate van verstoring
                            ligt. Er wordt in de norm NEN-EN-ISO 22475 een indeling in vijf klassen gehanteerd
                            en voor iedere klasse is vastgelegd hoe de monsters behandeld moeten worden wanneer
                            zij eenmaal boven de grond zijn gekomen. De hoogste eisen gelden voor monsters die
@@ -5106,10 +5094,10 @@
                            spraak gezamenlijk ongeroerde monsters genoemd. Het onderscheid tussen ongeroerde
                            en geroerde monsters is een indeling voor kwaliteit die in het verleden algemeen is
                            gebruikt.
-                           De reden het gegeven vast te leggen is dat niet alle in het veld genomen monsters
+                        </p>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De reden het gegeven vast te leggen is dat niet alle in het veld genomen monsters
                            altijd als onderdeel van het booronderzoek worden geanalyseerd.
-                           Voor historische gegevens waarbij bemonstering niet volgens NEN-EN-ISO 22475 is uitgevoerd
-                           is een tweedeling tussen geroerd en ongeroerd gehanteerd.
                         </p>
                         
                      </td>
@@ -5164,16 +5152,10 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is aanwezig wanneer de waarde van het attribuut <em>bemonsteringsmethode</em> gelijk is aan <em>opDiepteUitsteken</em>. In andere gevallen ontbreekt het gegeven.
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bemonsteringsmethode</em>gelijk is aan <em>opDiepteUitsteken</em>. 
                         </p>
                         
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Regels IMBRO/A</th>
-                     <td>
-                        
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Voor IMBRO/A-gegevens mag het gegeven ontbreken.</p>
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut mag niet aanwezig zijn in alle andere gevallen.</p>
                         
                      </td>
                   </tr>
@@ -5183,8 +5165,6 @@
                         
                         <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Voor bepaalde vormen van boormonsteranalyse is het nodig de bemonstering zo uit te
                            voeren dat de oriëntatie van de structuur van de ondergrond behouden blijft.
-                           Voor gegevens die zijn aangeleverd in het kader van archiefoverdracht is dit gegeven
-                           zelden vastgelegd.
                         </p>
                         
                      </td>
@@ -5199,6 +5179,9 @@
          </section>
       </section><a class="anchor" name="graph_EAID_0AB2C94F_0BED_4e73_A604_516206E06046"></a><a class="anchor" name="global_class_DomeinmodelBHRBHRG_Bemonsteringsapparaat"></a><section id="global_class_DomeinmodelBHRBHRG_Bemonsteringsapparaat" level="4">
          <h4>   Bemonsteringsapparaat</h4>
+         <div class="imageinfo "><img src="data/Images/EAID_4F823E09_96A1_4b9b_8CE9_CA95B5D86E4A.png" usemap="#imagemap-EAID_4F823E09_96A1_4b9b_8CE9_CA95B5D86E4A"><map name="imagemap-EAID_4F823E09_96A1_4b9b_8CE9_CA95B5D86E4A">
+               <area shape="rect" coords="10,189,247,10" alt="" href="#graph_EAID_0AB2C94F_0BED_4e73_A604_516206E06046"></map><p><b>Bemonsteringsapparaat - detail</b></p>
+         </div>
          <table width="100%">
             <colgroup width="30%"></colgroup>
             <colgroup width="70%"></colgroup>
@@ -5219,16 +5202,10 @@
                   <th>Regels</th>
                   <td>
                      
-                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is aanwezig wanneer de waarde van het attribuut <em>bemonsteringsmethode</em> gelijk is aan <em>opDiepteKernen</em> of <em>opDiepteUitsteken</em>. In andere gevallen ontbreekt het gegeven.
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bemonsteringsmethode</em>van de entiteit <em>Bemonsterd interval</em>gelijk is aan <em>opDiepteKernen</em>of <em>opDiepteUitsteken</em>. 
                      </p>
                      
-                  </td>
-               </tr>
-               <tr>
-                  <th>Regels IMBRO/A</th>
-                  <td>
-                     
-                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Voor IMBRO/A-gegevens mag het gegeven ontbreken.</p>
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut mag niet aanwezig zijn in alle andere gevallen.</p>
                      
                   </td>
                </tr>
@@ -5240,8 +5217,6 @@
                         informatie over de kwaliteit van de monsters die genomen zijn, maar wanneer er ongeroerde
                         monsters zijn genomen is het van belang ook de specificaties van het gebruikte apparaat
                         vast te leggen.
-                        Voor gegevens die zijn aangeleverd in het kader van archiefoverdracht zijn zelden
-                        specificaties van het bemonsteringsapparaat vastgelegd. 
                      </p>
                      
                   </td>
@@ -5251,10 +5226,7 @@
                   <td>
                      <a class="link" href="#global_class_DomeinmodelBHRBHRG_BemonsterdInterval">Bemonsterd interval</a>
                      
-                     bemonsterd met 0-1 Bemonsteringsapparaat<br>
-                     <a class="link" href="#global_class_DomeinmodelBHRBHRG_BemonsterdInterval">Bemonsterd interval</a>
-                     
-                     bemonsteringsapparaat 0-1 Bemonsteringsapparaat<br></td>
+                     bemonsterd met 0-1 Bemonsteringsapparaat<br></td>
                </tr>
             </tbody>
          </table><a class="anchor" name="detail_attribute_DomeinmodelBHRBHRG_Bemonsteringsapparaat_apparaattype"></a><section id="detail_attribute_DomeinmodelBHRBHRG_Bemonsteringsapparaat_apparaattype" level="5">
@@ -5320,7 +5292,7 @@
                      <th>Definitie</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De inwendige diameter van het deel van het apparaat waarin het monster wordt opgevangen.</p>
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De lengte van het deel van het apparaat waarin het monster wordt opgevangen.</p>
                         
                      </td>
                   </tr>
@@ -5356,8 +5328,10 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven ontbreekt wanneer de waarde van het attribuut <em>apparaattype</em> gelijk is aan <em>guts</em>. In andere gevallen is het gegeven aanwezig.
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>apparaattype</em>gelijk is aan <em>guts</em>. 
                         </p>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut moet aanwezig zijn in alle andere gevallen.</p>
                         
                      </td>
                   </tr>
@@ -5419,8 +5393,10 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven ontbreekt wanneer de waarde van het attribuut <em>apparaattype</em> gelijk is aan <em>guts</em>. In andere gevallen is het gegeven aanwezig.
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>apparaattype</em>gelijk is aan <em>guts</em>. 
                         </p>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut moet aanwezig zijn in alle andere gevallen.</p>
                         
                      </td>
                   </tr>
@@ -5484,8 +5460,10 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven ontbreekt wanneer de waarde van het attribuut <em>apparaattype</em> gelijk is aan <em>guts</em>. In andere gevallen is het gegeven aanwezig.
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>apparaattype</em>gelijk is aan <em>guts</em>. 
                         </p>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut moet aanwezig zijn in alle andere gevallen.</p>
                         
                      </td>
                   </tr>
@@ -5541,8 +5519,10 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven ontbreekt wanneer de waarde van het attribuut <em>apparaattype</em> gelijk is aan <em>guts</em>. In andere gevallen is het gegeven aanwezig.
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>apparaattype</em>gelijk is aan <em>guts</em>. 
                         </p>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut moet aanwezig zijn in alle andere gevallen.</p>
                         
                      </td>
                   </tr>
@@ -5596,8 +5576,10 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is aanwezig wanneer de waarde van het attribuut <em>apparaattype</em> gelijk is aan <em>steekbus</em>, <em>steekbusDLDS</em> of <em>steekbusMetLiner</em>. In andere gevallen ontbreekt het gegeven.
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>apparaattype</em>gelijk is aan <em>steekbus</em>, <em>steekbusDLDS</em>of <em>steekbusMetLiner</em>. 
                         </p>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut mag niet aanwezig zijn in alle andere gevallen.</p>
                         
                      </td>
                   </tr>
@@ -5659,8 +5641,10 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is aanwezig wanneer de waarde van het attribuut <em>haakse steekmond</em> gelijk is aan <em>nee</em>. In andere gevallen ontbreekt het gegeven.
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is aanwezig wanneer de waarde van het attribuut <em>haakse steekmond</em> gelijk is aan <em>nee</em>. 
                         </p>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">In andere gevallen ontbreekt het gegeven.</p>
                         
                      </td>
                   </tr>
@@ -5722,8 +5706,10 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is aanwezig wanneer de waarde van het attribuut <em>apparaattype</em> gelijk is aan <em>steekbus, steekbusDLDS</em>of<em>steekbusMetLiner</em>. In andere gevallen ontbreekt het gegeven.
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is aanwezig wanneer de waarde van het attribuut <em>apparaattype</em> gelijk is aan <em>steekbus, steekbusDLDS</em>of<em>steekbusMetLiner</em>. 
                         </p>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">In andere gevallen ontbreekt het gegeven.</p>
                         
                      </td>
                   </tr>
@@ -5779,9 +5765,10 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is aanwezig wanneer de waarde van het attribuut <em>apparaattype</em> gelijk is aan <em>corebarrelSingleTube</em>, corebarrelDoubleTube, corebarrelTripleTube en steekbus. In andere gevallen ontbreekt
-                           het gegeven.
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>apparaattype</em>gelijk is aan <em>corebarrelSingleTube</em>, <em>corebarrelDoubleTube</em>, <em>corebarrelTripleTube</em>of <em>steekbus</em>. 
                         </p>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut mag niet aanwezig zijn in alle andere gevallen.</p>
                         
                      </td>
                   </tr>
@@ -5850,8 +5837,10 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven ontbreekt wanneer de waarde van het attribuut <em>apparaattype</em> gelijk is aan <em>guts</em>. In andere gevallen is het gegeven aanwezig.
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>apparaattype</em>gelijk is aan <em>guts</em>. 
                         </p>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut moet aanwezig zijn in alle andere gevallen.</p>
                         
                      </td>
                   </tr>
@@ -5907,8 +5896,10 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven ontbreekt wanneer de waarde van het attribuut <em>apparaattype</em> gelijk is aan <em>guts</em>. In andere gevallen is het gegeven aanwezig.
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>apparaattype</em>gelijk is aan <em>guts</em>.
                         </p>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system"> Het attribuut moet aanwezig zijn in alle andere gevallen.</p>
                         
                      </td>
                   </tr>
