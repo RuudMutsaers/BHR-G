@@ -1,7 +1,7 @@
 # Booronderzoek - geologie
 Deze repository wordt gebruikt voor het ontwikkelen van de geologische deelverzamelingen van de BRO catalogus Booronderzoek, voor het verzamelen van issues hierover, en voor consultaties. 
 
-Werkversie van de catalogus: https://broprogramma.github.io/BHR-G/
+Werkversie van de catalogus: https://broprogramma.github.io/BHR-G/ (niet gebruiken voor publieke consultatie)
 
 ## Publieke Consultatie
 Van 30 september tot en met 12 november loopt de consultatie van de catalogus [“Booronderzoek Geologische boormonsterbeschrijving"][1]. De catalogus wordt geconsulteerd in de vorm zoals hij in de ministeriële regeling verschijnt. Gebruik daarvoor [de hier gelinkte PDF versie catalogus][1].
