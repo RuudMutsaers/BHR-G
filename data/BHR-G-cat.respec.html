@@ -1,7 +1,7 @@
 <section id="cat" class="normative" level="1">
    <h2>Gegevensdefinitie</h2>
    <p><b>Deze tekst is normatief.</b>
-      <!--Conceptualmodel-GeologischbooronderzoekBHR-G-0.9-0-20190923-20190928-223127 imvertor 1.55.1--></p>
+      <!--Conceptualmodel-GeologischbooronderzoekBHR-G-0.9-0-20190923-20190928-231718 imvertor 1.55.1--></p>
    <section id="" level="3">
       <h3>Het domeinmodel   </h3>
       <div class="imageinfo overview"><img src="data/Images/EAID_A794A5F1_C52E_4a52_952F_D4257486C44D.png" usemap="#imagemap-EAID_A794A5F1_C52E_4a52_952F_D4257486C44D"><map name="imagemap-EAID_A794A5F1_C52E_4a52_952F_D4257486C44D">
@@ -11109,7 +11109,7 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Naam</th>
-                     <td>SoortGrond</td>
+                     <td>SoortGesteente</td>
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Type</th>
@@ -14640,6 +14640,13 @@
          </section>
       </section><a class="anchor" name="graph_EAID_6986D2AE_EA69_4af6_812A_7C4CA90CCBF2"></a><a class="anchor" name="global_class_DomeinmodelBHRBHRG_Fractieverdeling"></a><section id="global_class_DomeinmodelBHRBHRG_Fractieverdeling" level="4">
          <h4>   Fractieverdeling</h4>
+         <div class="imageinfo "><img src="data/Images/EAID_B8D7BC81_C32D_40e6_AB63_3F693F7582B3.png" usemap="#imagemap-EAID_B8D7BC81_C32D_40e6_AB63_3F693F7582B3"><map name="imagemap-EAID_B8D7BC81_C32D_40e6_AB63_3F693F7582B3">
+               <area shape="rect" coords="334,426,554,361" alt="" href="#graph_EAID_6EE3DDDC_4909_4509_91BD_DDE3546FD55F">
+               <area shape="rect" coords="67,426,287,361" alt="" href="#graph_EAID_816F849B_EE57_4a63_B163_A7708B5EEF58">
+               <area shape="rect" coords="10,276,230,211" alt="" href="#graph_EAID_93CE8907_FF55_4bd2_9E36_DA5B6F968E38">
+               <area shape="rect" coords="405,276,625,211" alt="" href="#graph_EAID_267BF639_C106_452f_A5DD_15FE467A3CF1">
+               <area shape="rect" coords="178,111,451,10" alt="" href="#graph_EAID_6986D2AE_EA69_4af6_812A_7C4CA90CCBF2"></map><p><b>Fractieverdeling - detail</b></p>
+         </div>
          <table width="100%">
             <colgroup width="30%"></colgroup>
             <colgroup width="70%"></colgroup>
@@ -14652,8 +14659,9 @@
                   <th>Definitie</th>
                   <td>
                      
-                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De samenstelling van de grond beschreven als een mengsel van organische stof, schelpmateriaal,
-                        grind, zand, silt en lutum. 
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De samenstelling van de grond beschreven volgens de driehoeksystematiek als een mengsel
+                        van organische stof, schelpmateriaal en vier minerale fracties, te weten grind, zand,
+                        silt en lutum. 
                      </p>
                      
                   </td>
@@ -14662,7 +14670,29 @@
                   <th>Regels</th>
                   <td>
                      
-                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Afhankelijk van beschrijfkwaliteit</p>
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em>van de entiteit <em>Boorprofiel</em>gelijk is aan <em>geologischUitgebreidGeroerd</em>of <em>geologischUitgebreidOngeroerd</em>en wanneer de <em>geologische grondsoort</em>een schelprijke grond, een organische grond, een grindige minerale grond of een niet-grindige
+                        minerale grond is.
+                     </p>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De entiteit mag niet aanwezig zijn in alle andere gevallen.</p>
+                     
+                  </td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">In de geologische boormonsterbeschrijving worden zes categorieen grond onderscheiden:
+                        zeer grove minerale gronden, grindige minerale gronden, niet-grindige minerale gronden,
+                        schelprijke gronden, organische gronden en een restcategorie met bijzondere gronden.
+                        Grond is bijna altijd een mengsel van fracties die wat betreft materiaal of korrelgrootte
+                        van elkaar verschillen. Het mengsel wordt nader beschreven, behalve als het om de
+                        categorieen zeer grove minerale gronden en bijzondere gronden gaat. Dat gebeurt door
+                        de grond te beschouwen als een mengsel van zes fracties en dat zijn grind, zand, silt,
+                        lutum, schelpmateriaal en organische stof. Van ieder van de fracties wordt door experts
+                        het aandeel geschat. Over welk totaal het aandeel wordt bepaald verschilt per categorie
+                        en soms per fractie. 
+                     </p>
                      
                   </td>
                </tr>
@@ -14706,8 +14736,8 @@
                      <th>Definitie</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het geschatte massa-aandeel organische stof wanneer de grond beschreven is als een
-                           mengsel van alleen organische stof, lutum plus silt en zand.
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het geschatte aandeel organische stof in de massa van de grond onder uitsluiting van
+                           de fracties schelpmateriaal en grind.
                         </p>
                         
                      </td>
@@ -14741,6 +14771,14 @@
                      <td>0 tot 100</td>
                   </tr>
                   <tr>
+                     <th>Toelichting</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven wordt bepaald van alle gronden waarvan de fractieverdeling wordt beschreven.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
                      <th>Mogelijk geen waarde</th>
                      <td>Nee</td>
                   </tr>
@@ -14762,8 +14800,8 @@
                      <th>Definitie</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het geschatte volume-aandeel schelpmateriaal, wanneer de grond beschreven is als een
-                           mengsel van alleen lutum plus silt, zand en schelpmateriaal.
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het geschatte aandeel schelpmateriaal in de massa van de grond onder uitsluiting van
+                           de fracties organische stof en grind.
                         </p>
                         
                      </td>
@@ -14800,9 +14838,11 @@
                      <th>Toelichting</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">In het classificatiesysteem van NEN 5104 wordt schelpmateriaal groter dan 2 millimeter
-                           beschouwd als grind. In de SBB-procedure wordt het schelpmateriaal,ongeacht de grootte,
-                           als een aparte fractie behandeld.
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven werd voor de invoering van de Standaard Boorbeschrijfmethode 6 versie
+                           2020 systematisch vastgelegd. Het gegeven past eigenlijk niet in de systematiek die
+                           voor het vastleggen van de fractieverdeling volgens de Standaard Boorbeschrijfmethode
+                           6 versie 2020 wordt gehanteerd, maar kan door de uitvoerder vastgelegd worden om de
+                           aansluiting op oudere methodes te borgen. 
                         </p>
                         
                      </td>
@@ -14829,8 +14869,8 @@
                      <th>Definitie</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het geschatte volume-aandeel schelpmateriaal, wanneer de grond beschreven is als een
-                           mengsel van alleen lutum plus silt, zand en schelpmateriaal.
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het geschatte aandeel schelpmateriaal in het volume van de grond onder uitsluiting
+                           van de fractie organische stof.
                         </p>
                         
                      </td>
@@ -14867,10 +14907,7 @@
                      <th>Toelichting</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">In het classificatiesysteem van NEN 5104 wordt schelpmateriaal groter dan 2 millimeter
-                           beschouwd als grind. In de SBB-procedure wordt het schelpmateriaal,ongeacht de grootte,
-                           als een aparte fractie behandeld.
-                        </p>
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven wordt bepaald van alle gronden waarvan de fractieverdeling wordt beschreven.</p>
                         
                      </td>
                   </tr>
@@ -14896,9 +14933,7 @@
                      <th>Definitie</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het geschatte massa-aandeel grind, wanneer de grond beschreven is als een mengsel
-                           van alleen lutum plus silt, zand en grind.
-                        </p>
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het geschatte aandeel grind in de massa van de vier minerale fracties.</p>
                         
                      </td>
                   </tr>
@@ -14929,6 +14964,28 @@
                   <tr>
                      <th>&nbsp;&nbsp;Waardebereik</th>
                      <td>0 tot 100</td>
+                  </tr>
+                  <tr>
+                     <th>Regels</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut moet aanwezig zijn wanneer de <em>geologische grondsoort</em>een organische grond, een grindige minerale grond of een niet-grindige minerale grond
+                           is.
+                        </p>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut mag niet aanwezig zijn in alle andere gevallen.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Voor minerale en organische gronden wordt de massa van de vier minerale fracties op
+                           100 procent gesteld. Voor schelprijke gronden wordt het aandeel grind anders bepaald.
+                        </p>
+                        
+                     </td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -14952,8 +15009,8 @@
                      <th>Definitie</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het geschatte massa-aandeel grind, wanneer de grond beschreven is als een mengsel
-                           van alleen lutum plus silt, zand en grind.
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het geschat aandeel grind in het volume van de vijf fracties die in schelprijke grond
+                           worden onderscheiden te weten de vier minerale fracties plus het schelpmateriaal.
                         </p>
                         
                      </td>
@@ -14985,6 +15042,29 @@
                   <tr>
                      <th>&nbsp;&nbsp;Waardebereik</th>
                      <td>0 tot 100</td>
+                  </tr>
+                  <tr>
+                     <th>Regels</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut moet aanwezig zijn wanneer de <em>geologische grondsoort</em>een schelprijke grond is.
+                        </p>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut mag niet aanwezig zijn in alle andere gevallen.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Schelprijke gronden zijn gronden die voor ten minste dertig procent uit schelpmateriaal
+                           bestaan. Voor de fractieverdeling van schelprijke gronden wordt de bijdrage van organische
+                           stof aan het mengsel genegeerd, en het geheel van de minerale fracties plus schelpmateriaal
+                           op honderd procent gesteld.
+                        </p>
+                        
+                     </td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -26451,6 +26531,109 @@
             </tbody>
          </table>
          
+      </section><a class="anchor" name="graph_EAID_19EA7F89_5598_4f6d_BC83_B76A31D1D751"></a><a class="anchor" name="detail_class_DomeinmodelBHRBHRG_SoortGesteente"></a><section id="detail_class_DomeinmodelBHRBHRG_SoortGesteente" level="4">
+         <h4>  SoortGesteente</h4>
+         
+         <table width="100%">
+            <colgroup width="50%"></colgroup>
+            <colgroup width="50%"></colgroup>
+            <tbody>
+               <tr>
+                  <td>Definitie</td>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De lijst voor de soorten gesteente die als afwijkend laagje in grond voorkomen.</p>
+                     
+                  </td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <table width="100%">
+            <colgroup width="25%"></colgroup>
+            <colgroup width="25%"></colgroup>
+            <colgroup width="25%"></colgroup>
+            <colgroup width="25%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Waarde</th>
+                  <th>IMBRO</th>
+                  <th>IMBRO/A</th>
+                  <th>Omschrijving</th>
+               </tr>
+               <tr>
+                  <td>kalksteen</td>
+                  <td>✔</td>
+                  <td>✔</td>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Sedimentair gesteente dat voornamelijk bestaat uit calciumcarbonaat (CaCO3, kalk).
+                        Hieronder vallen alle kalkstenen met uitzondering van mergel, dat apart onderscheiden
+                        wordt.
+                     </p>
+                     
+                  </td>
+               </tr>
+               <tr>
+                  <td>kalksteenMergel</td>
+                  <td>✔</td>
+                  <td>✔</td>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Sedimentair gesteente dat voornamelijk bestaat uit calciumcarbonaat (CaCO3, kalk),
+                        vrij zacht, grofkorrelig, brokkelig en lichtgekleurd met veel herkenbare mariene fossielen.
+                        Staat ook wel bekend als tufkalk of krijtkalk.
+                     </p>
+                     
+                  </td>
+               </tr>
+               <tr>
+                  <td>kleisteen</td>
+                  <td>✔</td>
+                  <td>✔</td>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Sedimentair gesteente, ontstaan door de compactie en/of verkitting van klei; hieronder
+                        vallen ook leisteen en schalie.
+                     </p>
+                     
+                  </td>
+               </tr>
+               <tr>
+                  <td>siltsteen</td>
+                  <td>✔</td>
+                  <td>✔</td>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Sedimentair gesteente, bestaand voor het grootste deel uit verkit silt.</p>
+                     
+                  </td>
+               </tr>
+               <tr>
+                  <td>vuursteen</td>
+                  <td>✔</td>
+                  <td>✔</td>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Hard gesteente, bestaand uit microkristallijne (fijn verdeelde) kwarts; komt meestal
+                        voor als knollen of platen in mergels of andere kalksteen.
+                     </p>
+                     
+                  </td>
+               </tr>
+               <tr>
+                  <td>zandsteen</td>
+                  <td>✔</td>
+                  <td>✔</td>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Sedimentair gesteente, bestaand voor het grootste deel uit verkit zand.</p>
+                     
+                  </td>
+               </tr>
+            </tbody>
+         </table>
+         
       </section><a class="anchor" name="graph_EAID_BC7E6E9C_019C_4efc_A640_58EAFB75EF1F"></a><a class="anchor" name="detail_class_DomeinmodelBHRBHRG_SoortGrind"></a><section id="detail_class_DomeinmodelBHRBHRG_SoortGrind" level="4">
          <h4>  SoortGrind</h4>
          
@@ -27210,7 +27393,13 @@
             <tbody>
                <tr>
                   <td>Definitie</td>
-                  <td></td>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De lijst voor de soorten grond die als brokje, insluitsel, lens of afwijkend laagje
+                        voorkomen.
+                     </p>
+                     
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -27429,7 +27618,11 @@
             <tbody>
                <tr>
                   <td>Definitie</td>
-                  <td></td>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De lijst voor de soorten plantenresten die als bestanddeel van de veenfractie voorkomen.</p>
+                     
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -27623,8 +27816,7 @@
                   <td>Definitie</td>
                   <td>
                      
-                     
-                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De lijst voor de namen van de taxonomische categorieen schelpen.</p>
                      
                   </td>
                </tr>
@@ -29181,7 +29373,11 @@
             <tbody>
                <tr>
                   <td>Definitie</td>
-                  <td></td>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De lijst voor de soorten zand die als bestanddeel van de zandfractie voorkomen.</p>
+                     
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -29514,7 +29710,11 @@
             <tbody>
                <tr>
                   <td>Definitie</td>
-                  <td></td>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De lijst voor de interne opbouw van lagen.</p>
+                     
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -29738,7 +29938,11 @@
             <tbody>
                <tr>
                   <td>Definitie</td>
-                  <td></td>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De lijst voor de classificatie van de mate van vezeligheid van organische grond.</p>
+                     
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -29934,7 +30138,11 @@
             <tbody>
                <tr>
                   <td>Definitie</td>
-                  <td></td>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De lijst voor de discontinuiteiten die de laagopbouw verstoren.</p>
+                     
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -30034,7 +30242,11 @@
             <tbody>
                <tr>
                   <td>Definitie</td>
-                  <td></td>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De lijst voor de omschrijving van de wijze waarop een antropogene laag is ontstaan.</p>
+                     
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -30170,7 +30382,11 @@
             <tbody>
                <tr>
                   <td>Definitie</td>
-                  <td></td>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De lijst voor de soorten veen.</p>
+                     
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -30354,7 +30570,13 @@
             <tbody>
                <tr>
                   <td>Definitie</td>
-                  <td></td>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De lijst voor de omschrijving van de aard van een geleidelijke verticale verandering
+                        in een laag.
+                     </p>
+                     
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -30623,7 +30845,11 @@
             <tbody>
                <tr>
                   <td>Definitie</td>
-                  <td></td>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De lijst voor de classificatie van de mate van verwering van schelpmateriaal.</p>
+                     
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -30682,7 +30908,11 @@
             <tbody>
                <tr>
                   <td>Definitie</td>
-                  <td></td>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De lijst met de kleuren van vlekken.</p>
+                     
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -31086,7 +31316,11 @@
             <tbody>
                <tr>
                   <td>Definitie</td>
-                  <td></td>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De lijst voor de zandliniaal.</p>
+                     
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -31127,7 +31361,11 @@
             <tbody>
                <tr>
                   <td>Definitie</td>
-                  <td></td>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De lijst voor de classificatie van de mediaan van de zandfractie</p>
+                     
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -31238,7 +31476,13 @@
             <tbody>
                <tr>
                   <td>Definitie</td>
-                  <td></td>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De lijst voor de classificatie van de spreiding van de korrelgrootte van de zandfractie
+                        volgens NEN 5104.
+                     </p>
+                     
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -31325,7 +31569,11 @@
             <tbody>
                <tr>
                   <td>Definitie</td>
-                  <td></td>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De lijst voor de classificatie van het aandeel zeer grof grind in de grindfractie.</p>
+                     
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -31410,7 +31658,11 @@
             <tbody>
                <tr>
                   <td>Definitie</td>
-                  <td></td>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De lijst voor de classificatie van het aandeel van zeer grove korrels in de grond.</p>
+                     
+                  </td>
                </tr>
             </tbody>
          </table>
