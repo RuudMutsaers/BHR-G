@@ -8,7 +8,7 @@
    <body>
       <p>Conceptual model/Geologisch booronderzoek (BHR-G)/20190923</p>
       <p>Imvertor: 1.55.1</p>
-      <p>Model release: Conceptualmodel-GeologischbooronderzoekBHR-G-0.9-0-20190923-20190928-211951</p>
+      <p>Model release: Conceptualmodel-GeologischbooronderzoekBHR-G-0.9-0-20190923-20190928-221536</p>
       <hr>
       <section id="" level="3">
          <h1>Artikel 1  Entiteiten en attributen   </h1><a class="anchor" name="graph_EAID_660D0220_39EE_4290_AD92_C8E8CCEDB502"></a><a class="anchor" name="global_class_DomeinmodelBHRBHRG_Booronderzoek"></a><section id="global_class_DomeinmodelBHRBHRG_Booronderzoek" level="4">
@@ -1039,7 +1039,8 @@
                         <th>Regels</th>
                         <td>
                            
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is alleen aanwezig wanneer de <em>registratiestatus</em>de waarde <em>voltooid</em> heeft. In andere gevallen ontbreekt het gegeven.
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is alleen aanwezig wanneer de registratiestatus de waarde voltooid heeft.
+                              In andere gevallen ontbreekt het gegeven.
                            </p>
                            
                         </td>
@@ -13319,6 +13320,10 @@
                               of een hierarchisch hogere taxonomische eenheid. 
                            </p>
                            
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Bij de standaard beschrijving wordt een veel kortere lijst gebruikt dan bij de uitgebreide
+                              beschrijving.
+                           </p>
+                           
                         </td>
                      </tr>
                      <tr>
@@ -13417,7 +13422,24 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Afhankelijk van grondsoort</p>
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em>van de entiteit <em>Boorprofiel</em>gelijk is aan <em>geologischStandaardOngeroerd</em>of <em>geologischUitgebreidOngeroerd</em>en de waarde van <em>geologische grondsoort</em>van de entiteit <em>Grond</em>gelijk is aan <em>mineraalarmVeen</em>, <em>zwakKleiigVeen</em>, <em>sterkKleiigVeen</em>, <em>zwakZandigVeen</em>of <em>sterkZandigVeen</em>en de waarde van het attribuut <em>textuur organische grond</em>van de entiteit <em>Grond</em>gelijk is aan <em>grofPseudoVezelig</em>of <em>grofVezelig</em>.
+                        </p>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De entiteit mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em>van de entiteit <em>Boorprofiel</em>gelijk is aan <em>geologischStandaardGeroerd</em>of <em>geologischUitgebreidGeroerd</em>.
+                        </p>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De entiteit mag niet aanwezig zijn wanneer de waarde van <em>geologische grondsoort</em>van de entiteit <em>Grond</em>niet gelijk is aan <em>mineraalarmVeen</em>, <em>zwakKleiigVeen</em>, <em>sterkKleiigVeen</em>, <em>zwakZandigVeen</em>of <em>sterkZandigVeen</em>.
+                        </p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Wanneer veen geen duidelijke plantenstructuur meer heeft omdat het al grotendeels
+                           is verteerd, is het veelal niet mogelijk de veenfractie te beschrijven. 
+                        </p>
                         
                      </td>
                   </tr>
@@ -13503,7 +13525,10 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">afhankelijk van beschrijfkwaliteit</p>
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em>van de entiteit <em>Boorprofiel</em>gelijk is aan <em>geologischUitgebreidOngeroerd</em>. 
+                        </p>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De entiteit mag niet aanwezig zijn in alle andere gevallen.</p>
                         
                      </td>
                   </tr>
@@ -13541,7 +13566,7 @@
                         <th>Definitie</th>
                         <td>
                            
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De categorie plantenresten</p>
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De categorie plantenresten.</p>
                            
                         </td>
                      </tr>
@@ -13633,9 +13658,7 @@
                      <th>Definitie</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De kleur volgens het Munsell-systeem voor grond zoals dat in Nederland gebruikelijk
-                           is.
-                        </p>
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De kleur volgens het Munsell-systeem.</p>
                         
                      </td>
                   </tr>
@@ -13643,7 +13666,10 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Afhankelijk van beschrijfkwaliteit</p>
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em>van de entiteit <em>Boorprofiel</em>gelijk is aan <em>geologischUitgebreidOngeroerd</em>. 
+                        </p>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De entiteit mag niet aanwezig zijn in alle andere gevallen.</p>
                         
                      </td>
                   </tr>
@@ -13824,9 +13850,10 @@
                         <th>Regels</th>
                         <td>
                            
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven ontbreekt wanneer de waarde van het attribuut munsell hoofdkleur gelijk
-                              is aan N. In andere gevallen is het gegeven aanwezig. &nbsp;
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>munsell hoofdkleur</em>gelijk is aan <em>N</em>. 
                            </p>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut moet aanwezig zijn in alle andere gevallen. &nbsp;</p>
                            
                         </td>
                      </tr>
@@ -13860,9 +13887,10 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is aanwezig wanneer de waarde van het attribuut gevlekt van de entiteit
-                           Grond gelijk is aan ja. In alle andere gevallen ontbreekt het gegeven.
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>gevlekt</em>van de entiteit <em>Grond</em>gelijk is aan <em>ja</em>. 
                         </p>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De entiteit mag niet aanwezig zijn in alle andere gevallen.</p>
                         
                      </td>
                   </tr>
@@ -13871,7 +13899,7 @@
                      <td>
                         
                         <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het voorkomen van vlekken is een aanwijzing voor verandering van de chemische samenstelling
-                           van de grond na afzetting van het sediment. 
+                           of gesteldheid van de grond na afzetting van het sediment. 
                         </p>
                         
                      </td>
@@ -14005,7 +14033,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Afhankelijk van beschrijfkwaliteit</p>
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De entiteit mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em>van de entiteit <em>Boorprofiel</em>gelijk is aan <em>geologischStandaardGeroerd</em>of <em>geologischUitgebreidGeroerd</em>.
+                        </p>
                         
                      </td>
                   </tr>
@@ -14013,7 +14042,9 @@
                      <th>Toelichting</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Insluitsels  bestaan op de schaal van centimeters en decimeters.</p>
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven wordt alleen vastgelegd bij de beschrijving van ongeroerde monsters. Insluitsels
+                           varieren in grootte van enkele millimeters tot enkele decimeters.
+                        </p>
                         
                      </td>
                   </tr>
@@ -14134,7 +14165,7 @@
                      <td>
                         
                         <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Een of meer geisoleerde, duidelijk begrensde, lensvormige voorkomens van een afwijkende
-                           grondsoort, die herkend worden als in deeltjes  afgezet
+                           grondsoort, die herkend worden als in deeltjes afgezet.
                         </p>
                         
                      </td>
@@ -14143,7 +14174,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Afhankelijk van beschrijfkwaliteit</p>
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De entiteit mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em>van de entiteit <em>Boorprofiel</em>gelijk is aan <em>geologischStandaardGeroerd</em>of <em>geologischUitgebreidGeroerd</em>.
+                        </p>
                         
                      </td>
                   </tr>
@@ -14151,11 +14183,11 @@
                      <th>Toelichting</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Lenzen bestaan op de schaal van millimeters en centimeters. Er is voor gekozen de
-                           lensvormige voorkomens van fijnkorrelig materiaal en zand die typisch zijn voor  flaser-
-                           en linsengelaagdheid niet als Sedimentllens te beschrijven maar als een sedimentaire
-                           structuur.<br clear="none"></br>
-                           
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven wordt alleen vastgelegd bij de beschrijving van ongeroerde monsters. Lenzen
+                           varieren in grootte van enkele millimeters tot enkele centimeters. Er is voor gekozen
+                           de lensvormige voorkomens van fijnkorrelig materiaal en zand die typisch zijn voor
+                           flaser- en linsengelaagdheid niet als Sedimentlens te beschrijven maar als een sedimentaire
+                           structuur. 
                         </p>
                         
                      </td>
@@ -14284,7 +14316,16 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Afhankelijk van beschrijfkwaliteit</p>
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De entiteit mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em>van de entiteit <em>Boorprofiel</em>gelijk is aan <em>geologischStandaardGeroerd</em>of <em>geologischStandaardOngeroerd</em>.
+                        </p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven wordt alleen vastgelegd bij de uitgebreide beschrijving.</p>
                         
                      </td>
                   </tr>
