@@ -8,7 +8,7 @@
    <body>
       <p>Conceptual model/Geologisch booronderzoek (BHR-G)/20190923</p>
       <p>Imvertor: 1.55.1</p>
-      <p>Model release: Conceptualmodel-GeologischbooronderzoekBHR-G-0.9-0-20190923-20190927-135957</p>
+      <p>Model release: Conceptualmodel-GeologischbooronderzoekBHR-G-0.9-0-20190923-20190928-211951</p>
       <hr>
       <section id="" level="3">
          <h1>Artikel 1  Entiteiten en attributen   </h1><a class="anchor" name="graph_EAID_660D0220_39EE_4290_AD92_C8E8CCEDB502"></a><a class="anchor" name="global_class_DomeinmodelBHRBHRG_Booronderzoek"></a><section id="global_class_DomeinmodelBHRBHRG_Booronderzoek" level="4">
@@ -12699,7 +12699,10 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">afhankelijk van beschrijfkwaliteit</p>
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em>van de entiteit <em>Boorprofiel</em>gelijk is aan <em>geologischUitgebreidGeroerd</em>of <em>geologischUitgebreidOngeroerd</em>. 
+                        </p>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De entiteit mag niet aanwezig zijn in alle andere gevallen.</p>
                         
                      </td>
                   </tr>
@@ -12827,7 +12830,13 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Afhankelijk van grondsoort</p>
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De entiteit moet aanwezig zijn wanneer de <em>geologische grondsoort</em>een schelprijke grond is.
+                        </p>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>schelpmateriaalgehalteklasse</em>van de entiteit <em>Grond</em>is gelijk aan <em>spoorTot1</em>, <em>weinig1tot10</em>of <em>veel10tot30</em>.
+                        </p>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De entiteit mag niet aanwezig zijn in alle andere gevallen.</p>
                         
                      </td>
                   </tr>
@@ -12915,6 +12924,10 @@
                         </td>
                      </tr>
                      <tr>
+                        <th>Juridische status</th>
+                        <td>Authentiek</td>
+                     </tr>
+                     <tr>
                         <th>Kardinaliteit</th>
                         <td>0-1</td>
                      </tr>
@@ -12929,6 +12942,32 @@
                      <tr>
                         <th>&nbsp;&nbsp;Type</th>
                         <td>Waardelijst niet uitbreidbaar</td>
+                     </tr>
+                     <tr>
+                        <th>Regels</th>
+                        <td>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em>van de entiteit <em>Boorprofiel</em>gelijk is aan <em>geologischStandaardOngeroerd</em>of <em>geologischUitgebreidOngeroerd</em>. 
+                           </p>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut mag niet aanwezig zijn in alle andere gevallen.</p>
+                           
+                        </td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Doubletten, tweekleppige schelpen waarvan de twee helften nog aan elkaar zitten, vallen
+                              bij transport snel uiteen. De aanwezigheid van doubletten is daarom een indicatie
+                              voor beperkte verplaatsing van de schelpresten.
+                           </p>
+                           
+                        </td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
                      </tr>
                   </tbody>
                </table>
@@ -12948,7 +12987,7 @@
                         <th>Definitie</th>
                         <td>
                            
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De mate van chemische verwering uitgedrukt in een klasse.</p>
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gehalte aan schelpen met een dikke wand uitgedrukt in een klasse.</p>
                            
                         </td>
                      </tr>
@@ -12971,6 +13010,28 @@
                      <tr>
                         <th>&nbsp;&nbsp;Type</th>
                         <td>Waardelijst uitbreidbaar</td>
+                     </tr>
+                     <tr>
+                        <th>Regels</th>
+                        <td>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em>van de entiteit <em>Boorprofiel</em>gelijk is aan <em>geologischUitgebreidGeroerd</em>of <em>geologischUitgebreidOngeroerd</em>. 
+                           </p>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut mag niet aanwezig zijn in alle andere gevallen.</p>
+                           
+                        </td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Schelpen of schelpfragmenten kunnen dikwandig (2 millimeter of dikker) of dunwandig
+                              (dunner dan 1 millimeter) zijn. Het gegeven geeft informatie over de omstandigheden
+                              waaronder het sediment is gevormd.
+                           </p>
+                           
+                        </td>
                      </tr>
                      <tr>
                         <th>Mogelijk geen waarde</th>
@@ -12994,7 +13055,7 @@
                         <th>Definitie</th>
                         <td>
                            
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De mate van chemische verwering uitgedrukt in een klasse.</p>
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gehalte aan schelpen met een dunne wand uitgedrukt in een klasse.</p>
                            
                         </td>
                      </tr>
@@ -13019,6 +13080,28 @@
                         <td>Waardelijst uitbreidbaar</td>
                      </tr>
                      <tr>
+                        <th>Regels</th>
+                        <td>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em>van de entiteit <em>Boorprofiel</em>gelijk is aan <em>geologischUitgebreidGeroerd</em>of <em>geologischUitgebreidOngeroerd</em>. 
+                           </p>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut mag niet aanwezig zijn in alle andere gevallen.</p>
+                           
+                        </td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Schelpen of schelpfragmenten kunnen dikwandig (2 millimeter of dikker) of dunwandig
+                              (dunner dan 1 millimeter) zijn. Het gegeven geeft informatie over de omstandigheden
+                              waaronder het sediment is gevormd.
+                           </p>
+                           
+                        </td>
+                     </tr>
+                     <tr>
                         <th>Mogelijk geen waarde</th>
                         <td>Nee</td>
                      </tr>
@@ -13040,11 +13123,13 @@
                         <th>Definitie</th>
                         <td>
                            
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De aanduiding die aangeeft of er tweekleppige schelpen voorkomen die nog een geheel
-                              vormen.
-                           </p>
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De aanduiding die aangeeft of er schelpen voorkomen in levenspositie.</p>
                            
                         </td>
+                     </tr>
+                     <tr>
+                        <th>Juridische status</th>
+                        <td>Authentiek</td>
                      </tr>
                      <tr>
                         <th>Kardinaliteit</th>
@@ -13061,6 +13146,29 @@
                      <tr>
                         <th>&nbsp;&nbsp;Type</th>
                         <td>Waardelijst niet uitbreidbaar</td>
+                     </tr>
+                     <tr>
+                        <th>Regels</th>
+                        <td>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em>van de entiteit <em>Boorprofiel</em>gelijk is aan <em>geologischUitgebreidOngeroerd</em>. 
+                           </p>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut mag niet aanwezig zijn in alle andere gevallen.</p>
+                           
+                        </td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven geeft nadere informatie over de omstandigheden waaronder de laag is gevormd.</p>
+                           
+                        </td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
                      </tr>
                   </tbody>
                </table>
@@ -13105,6 +13213,17 @@
                         <td>Waardelijst uitbreidbaar</td>
                      </tr>
                      <tr>
+                        <th>Regels</th>
+                        <td>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em>van de entiteit <em>Boorprofiel</em>gelijk is aan <em>geologischUitgebreidGeroerd</em>of <em>geologischUitgebreidOngeroerd</em>. 
+                           </p>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut mag niet aanwezig zijn in alle andere gevallen.</p>
+                           
+                        </td>
+                     </tr>
+                     <tr>
                         <th>Mogelijk geen waarde</th>
                         <td>Nee</td>
                      </tr>
@@ -13126,8 +13245,8 @@
                      <th>Definitie</th>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Een deel van het schelpmateriaal dat uit de resten van een bepaalde categorie schelpen
-                           bestaat.
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Een deel van het schelpmateriaal dat herkend wordt als bestaand uit de resten van
+                           een bepaalde categorie schelpen.
                         </p>
                         
                      </td>
@@ -13138,7 +13257,8 @@
                         
                         <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De samenstelling van de schelpenfractie wordt beschreven door de tien meest karakteristieke
                            taxa te benoemen en per taxon het procentuele aandeel in dat geheel, de associatie,
-                           vast te leggen. 
+                           vast te leggen. Het ontbreken van het gegeven betekent dat het materiaal zo sterk
+                           is gefragmenteerd dat determinatie niet mogelijk is.
                         </p>
                         
                      </td>
@@ -13190,6 +13310,16 @@
                      <tr>
                         <th>&nbsp;&nbsp;Type</th>
                         <td>Waardelijst uitbreidbaar</td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De categorie kan betrekking hebben op een soort of subsoort, maar ook op een geslacht
+                              of een hierarchisch hogere taxonomische eenheid. 
+                           </p>
+                           
+                        </td>
                      </tr>
                      <tr>
                         <th>Mogelijk geen waarde</th>
@@ -13244,6 +13374,18 @@
                      <tr>
                         <th>&nbsp;&nbsp;Waardebereik</th>
                         <td>0 tot 100</td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>
+                           
+                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het aandeel wordt bepaald door het aantal herkenbare fragmenten en hele exemplaren
+                              te tellen. De associatie omvat alleen de in de lijst opgenomen categorieen en de lijst
+                              die voor de beschrijfkwaliteiten geologischStandaardGeroerd en geologischStandaardOngeroerd
+                              wordt gebruikt is veel korter dan die voor geologischUitgebreidGeroerd en geologischUitgebreidOngeroerd.
+                           </p>
+                           
+                        </td>
                      </tr>
                      <tr>
                         <th>Mogelijk geen waarde</th>
